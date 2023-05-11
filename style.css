@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-carousel {
+    width: 1124px;
+    height: 12.5rem;
+    margin: auto;
+}
+
+.mySlides {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* FIRST SLIDE CAROUSEL */
+
+.first-slide {
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 15px;
+    background: linear-gradient(189.57deg, rgb(232, 250, 254) -83.55%, rgb(182, 228, 255) -40.3%, rgb(204, 194, 254) 123.53%, rgb(198, 163, 255) 176.26%);
+}
+
+#logos-slide1 {
+    width: 400px;
+    margin: 22px 25px;
+    position: absolute;
+}
+
+#bunny-photo-slide1 {
+    width: 350px;
+    position: relative;
+    bottom: 33px;
+    left: 730px;
+    
+}
+
+#topCoin-slide1 {
+    width: 140px;
+    position: relative;
+    bottom: 176px;
+    left: 185px;
+}
+
+.rightCoin-div {
+    
+    width: 1124px;
+    border-radius: 35px;
+    position: absolute;
+    top: 107px;
+    text-align: right;
+    overflow: hidden;
+    background: transparent;
+}
+
+#rightCoin-slide1 {
+    width: 80px;
+}
+
+#upStar-carousel1{
+    width: 25px;
+    position: relative;
+    bottom: 150px;
+    left: 45px;
+}
+#rightStar-carousel1{
+    width: 40px;
+    position: relative;
+    bottom: 110px;
+    left: 110px;
+}
+
+#firstSlide-texts{
+    position: relative;
+    bottom: 170px;
+    left: 25px;
+}
+
+
+
+/* SECOND SLIDE CAROUSEL */
+
+.second-slide {
+    background-color: tomato;
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/* THIRD SLIDE CAROUSEL */
+
+.third-slide {
+
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px 15px;
+    background: linear-gradient(261.24deg, rgba(158, 63, 253, 0.12) 27.61%, rgba(98, 61, 255, 0.25) 76.11%), linear-gradient(247.24deg, rgb(83, 222, 233) -16.43%, rgb(168, 129, 252) 92.15%);
+    color: white;
+}
+
+#bunny-photo-slide3 {
+    position: relative;
+    left: 760px;
+    bottom: 120px;
+}
+
+.button-third-slide {
+    position: absolute;
+}
+
+/* FOURTH SLIDE CAROUSEL  */
+
+.fourth-slide {
+    background: linear-gradient(128.04deg, rgb(187, 211, 251) -23.79%, rgb(75, 60, 255) 121.4%);
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.fourth-slide-imgLogo-container {
+    display: flex;
+}
+
+.logo-ps-carousel {
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.p-imgLogo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* FIFTH SLIDE CAROUSEL */
+
+.fifth-slide {
+    background-color: tomato;
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/* BUTTONS CAROUSEL SLIDES  */
+
+.container-carousel-buttons {
+    width: 100%;
+    margin: auto;
+}
+
+.first-carousel-button {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.last-carousel-button {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* ALL CAROUSEL BUTTONS SLIDE */
+
+.carousel-buttons {
+    cursor: pointer;
+    height: 10px;
+    width: 24px;
+    margin-left: -4px;
+    position: relative;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.363);
+    display: inline-block;
+
+}
+
+.active,
+.carousel-button:hover {
+    background-color: #fff8f8;
+}
