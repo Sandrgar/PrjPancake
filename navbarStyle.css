@@ -35,13 +35,15 @@ nav {
     fill: #f4eeff;
 }
 
+/* TRADE */
+
 .trade {
     margin-left: 20px;
     padding: 0px 16px;
 }
 
 .tradeDropdownContainer {
-    visibility: visible;
+
     display: flex;
     flex-direction: column;
     background-color: #27262c;
@@ -53,7 +55,7 @@ nav {
     transform: translate(200px, 56px);
 }
 
-.dropdownElement {
+.tradeDropdownElement {
     display: flex;
     align-items: center;
     border: 0px none;
@@ -66,36 +68,106 @@ nav {
     width: 100%;
 }
 
-.dropdownElementSvg {
+.tradeDropdownElementSvg {
     padding: 0;
 }
+
+/* EARN */
 
 .earn {
     padding: 0px 16px;
 }
 
 .earnDropdownContainer {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #27262c;
+    border: 1px solid #27262c;
+    border-radius: 16px;
+    width: 280px;
+    position: fixed;
+    inset: 0px auto auto 0px;
+    transform: translate(200px, 56px);
 }
+
+.earnDropdownElement {
+    align-items: center;
+    border: 0px none;
+    background: transparent;
+    cursor: pointer;
+    height: 48px;
+    justify-content: space-between;
+    padding: 16px;
+    width: 100%;
+}
+
+/* WIN */
 
 .win {
     padding: 0 16px;
 }
 
 .winDropdownContainer {
-    display: none;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #27262c;
+    border: 1px solid #27262c;
+    border-radius: 16px;
+    width: 280px;
+    position: fixed;
+    inset: 0px auto auto 0px;
+    transform: translate(200px, 56px);
 }
+
+.winDropdownElement {
+    display: flex;
+    align-items: center;
+    border: 0px none;
+    background: transparent;
+    cursor: pointer;
+    height: 48px;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
+
+/* NFT */
 
 .nft {
     padding: 0 16px;
 }
 
 .nftDropdownContainer {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #27262c;
+    border: 1px solid #27262c;
+    border-radius: 16px;
+    width: 280px;
+    position: fixed;
+    inset: 0px auto auto 0px;
+    transform: translate(200px, 56px);
 }
 
-.points {
+.nftDropdownElement {
     display: flex;
+    align-items: center;
+    border: 0px none;
+    background: transparent;
+    cursor: pointer;
+    height: 48px;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
+
+/* POINTS */
+
+.points {
+    display: inline-block;
     position: relative;
     padding: 0 16px;
 }
@@ -105,9 +177,29 @@ nav {
 }
 
 .pointsDropdownContainer {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #27262c;
+    border: 1px solid #27262c;
+    border-radius: 16px;
+    width: 280px;
+    position: fixed;
+    inset: 0px auto auto 0px;
+    transform: translate(200px, 56px);
 }
 
+.pointsDropdownElement {
+    display: flex;
+    align-items: center;
+    border: 0px none;
+    background: transparent;
+    cursor: pointer;
+    height: 48px;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
 
 /* RIGHT ELEMENTS */
 
