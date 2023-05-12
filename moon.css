@@ -1,0 +1,148 @@
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(-7px, -7px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+body #moon-pancake {
+  display: flex;
+  justify-content: center;
+  margin: 8%;
+}
+body #moon-pancake .moon-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  margin-top: 10%;
+}
+body #moon-pancake .moon-text #moon-title {
+  font-size: 64px;
+  font-weight: 600;
+  color: #9a6aff;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+body #moon-pancake .moon-text #moon-title2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f4eeff;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+body #moon-pancake .moon-text .moon-btn #wallet-btn {
+  background-color: #1fc7d4;
+  color: #191326;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0px;
+  padding: 16px 24px;
+  border-radius: 16px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+body #moon-pancake .moon-text .moon-btn #wallet-btn:hover {
+  background-color: #0098a1;
+  transition: 0.2s;
+}
+body #moon-pancake .moon-text .moon-btn #trade-btn {
+  background-color: #191326;
+  color: #1fc7d4;
+  border: 2px solid #1fc7d4;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 24px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+body #moon-pancake .moon-text .moon-btn #trade-btn:hover {
+  color: #0098a1;
+  border-color: #0098a1;
+  transition: 0.2s;
+}
+body #moon-pancake .bunny-container {
+  display: flex;
+  flex: 1 1 0%;
+}
+body #moon-pancake .bunny-container .bunny-img {
+  animation: bounce 3.5s ease-in-out 0s infinite;
+}
+body #moon-pancake .bunny-container .bunny-img #astro-bunny {
+  position: absolute;
+  width: 576px;
+  height: 576px;
+}
+body #moon-pancake .bunny-container .star-container {
+  position: absolute;
+}
+body #moon-pancake .bunny-container .star-container .star-flex {
+  position: relative;
+  max-height: 512px;
+}
+body #moon-pancake .bunny-container .star-container .top-right-star {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation: fade 2.5s ease-in-out 0.33s infinite;
+}
+body #moon-pancake .bunny-container .star-container .left-star {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation: fade 2s ease-in-out 1s infinite;
+}
+body #moon-pancake .bunny-container .star-container .right-star {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation: fade 5s ease-in-out 1s infinite;
+}
+
+.scroll-top {
+  display: inline;
+  position: absolute;
+  right: 5%;
+}
+.scroll-top #btnTop {
+  background-color: #1fc7d4;
+  border: 0px;
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.scroll-top #btnTop #arrow {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.scroll-top #btnTop:hover {
+  background-color: #0098a1;
+  transition: 0.2s;
+}
+
+@media (max-width: 852px) {
+  #moon-pancake {
+    display: flex;
+    flex-direction: column;
+  }
+  #moon-pancake .bunny-container {
+    position: relative;
+  }
+}/*# sourceMappingURL=moon.css.map */
