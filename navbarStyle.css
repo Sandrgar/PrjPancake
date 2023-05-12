@@ -13,8 +13,8 @@ a {
 }
 
 nav {
+    position: fixed;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 56px;
@@ -36,66 +36,193 @@ nav {
     fill: #f4eeff;
 }
 
+/* TRADE */
+
 .trade {
+    background-color: #27262c;
+    border: none;
     margin-left: 20px;
     padding: 0px 16px;
 }
 
 .tradeDropdownContainer {
-    visibility: visible;
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    display: inline-block;
     background-color: #27262c;
     border: 1px solid #27262c;
     border-radius: 16px;
-    width: 280px;
-    position: fixed;
-    inset: 0px auto auto 0px;
-    transform: translate(200px, 56px);
+
 }
 
-.dropdownElement {
+
+.tradeDropdownContent {
+    display: none;
+    position: absolute;
+    border: 1px solid #383241;
+    border-radius: 16px;
+    background-color: #27262c;
+    margin-top: 20px;
+    width: 280px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    cursor: pointer;
+    margin: 16px 0px;
+}
+
+.tradeElements {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.tradeLinks {
     display: flex;
     align-items: center;
-    border: 0px none;
-    background: transparent;
-    cursor: pointer;
-    height: 48px;
     justify-content: space-between;
-    padding-left: 16px;
-    padding-right: 16px;
-    width: 100%;
 }
 
-.dropdownElementSvg {
-    padding: 0;
+.tradeDropdownContainer:hover .tradeDropdownContent {
+    display: block;
 }
+
+
+/* EARN */
 
 .earn {
+    background-color: #27262c;
+    border: none;
+    margin-left: 20px;
     padding: 0px 16px;
 }
 
 .earnDropdownContainer {
-    display: none;
+    position: relative;
+    display: inline-block;
+    background-color: #27262c;
+    border: 1px solid #27262c;
+    border-radius: 16px;
+
 }
 
+.earnDropdownContent {
+    display: none;
+    position: absolute;
+    border: 1px solid #383241;
+    border-radius: 16px;
+    background-color: #27262c;
+    margin-top: 20px;
+    width: 280px;
+}
+
+.earnDropdownElement {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.earnLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.earnDropdownContainer:hover .earnDropdownContent {
+    display: block;
+}
+
+/* WIN */
+
 .win {
-    padding: 0 16px;
+    background-color: #27262c;
+    border: none;
+    margin-left: 20px;
+    padding: 0px 16px;
 }
 
 .winDropdownContainer {
-    display: none;
+    position: relative;
+    display: inline-block;
+    background-color: #27262c;
+    border: 1px solid #27262c;
+    border-radius: 16px;
+
 }
 
+.winDropdownContent {
+    display: none;
+    position: absolute;
+    border: 1px solid #383241;
+    border-radius: 16px;
+    background-color: #27262c;
+    margin-top: 20px;
+    width: 280px;
+}
+
+.winDropdownElement {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.winLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.winDropdownContainer:hover .winDropdownContent {
+    display: block;
+}
+
+/* NFT */
+
 .nft {
-    padding: 0 16px;
+    background-color: #27262c;
+    border: none;
+    margin-left: 20px;
+    padding: 0px 16px;
 }
 
 .nftDropdownContainer {
-    display: none;
+    position: relative;
+    display: inline-block;
+    background-color: #27262c;
+    border: 1px solid #27262c;
+    border-radius: 16px;
+
 }
 
-.points {
+.nftDropdownContent {
+    display: none;
+    position: absolute;
+    border: 1px solid #383241;
+    border-radius: 16px;
+    background-color: #27262c;
+    margin-top: 20px;
+    width: 280px;
+}
+
+.nftDropdownElement {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.nftLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nftDropdownContainer:hover .nftDropdownContent {
+    display: block;
+}
+
+/*.points {
     display: flex;
     position: relative;
     padding: 0 16px;
@@ -107,8 +234,7 @@ nav {
 
 .pointsDropdownContainer {
     display: none;
-}
-
+}*/
 
 /* RIGHT ELEMENTS */
 
