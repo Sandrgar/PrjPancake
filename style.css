@@ -107,7 +107,7 @@
 #bunny-photo-slide3 {
     position: relative;
     left: 760px;
-    bottom: 120px;
+    bottom: 92px;
 }
 
 .button-third-slide {
@@ -129,13 +129,13 @@
 }
 
 .logo-ps-carousel {
-    width: 20px;
-    margin-top: 10px;
-    margin-left: 20px;
-}
+    position: relative;
+    bottom: 31px;
+    left: 44px;
 
+}
 .p-imgLogo {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
