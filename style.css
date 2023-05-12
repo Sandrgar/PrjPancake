@@ -5,6 +5,7 @@
     font-family: sans-serif;
 }
 
+
 .container-carousel {
     width: 1124px;
     height: 12.5rem;
@@ -43,7 +44,7 @@
 #topCoin-slide1 {
     width: 140px;
     position: relative;
-    bottom: 176px;
+    bottom: 175px;
     left: 185px;
 }
 
@@ -86,7 +87,7 @@
 /* SECOND SLIDE CAROUSEL */
 
 .second-slide {
-    background-color: tomato;
+    background: linear-gradient(239.62deg, rgba(49, 78, 119, 0.35) 15.52%, rgba(60, 46, 87, 0.35) 86.5%), linear-gradient(114.79deg, rgb(192, 64, 252) -17.76%, rgb(75, 60, 255) 99.88%);
     border-radius: 35px;
     margin: auto;
     margin-top: 15px;
@@ -107,7 +108,7 @@
 #bunny-photo-slide3 {
     position: relative;
     left: 760px;
-    bottom: 120px;
+    bottom: 92px;
 }
 
 .button-third-slide {
@@ -129,13 +130,13 @@
 }
 
 .logo-ps-carousel {
-    width: 20px;
-    margin-top: 10px;
-    margin-left: 20px;
-}
+    position: relative;
+    bottom: 31px;
+    left: 44px;
 
+}
 .p-imgLogo {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
@@ -171,7 +172,7 @@
     cursor: pointer;
     height: 10px;
     width: 24px;
-    margin-left: -4px;
+    margin-left: -4.4px;
     position: relative;
     bottom: 20px;
     background-color: rgba(255, 255, 255, 0.363);
