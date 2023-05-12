@@ -89,7 +89,6 @@ body #moon-pancake .bunny-container .bunny-img #astro-bunny {
 }
 body #moon-pancake .bunny-container .star-container {
   position: absolute;
-  top: 100px;
 }
 body #moon-pancake .bunny-container .star-container .star-flex {
   position: relative;
