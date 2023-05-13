@@ -5,7 +5,6 @@
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 600;
-
 }
 
 a {
@@ -14,10 +13,12 @@ a {
 }
 
 nav {
-    position: fixed;
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
     width: 100%;
     height: 56px;
     background-color: #27262c;
@@ -29,6 +30,10 @@ nav {
 
 .svgDropBar {
     fill: #b8add2;
+}
+
+.svgDropBar:hover {
+    fill: #9c92b3;
 }
 
 hr {
@@ -52,10 +57,18 @@ hr {
 /* TRADE */
 
 .trade {
+    cursor: pointer;
+    color: #b8add2;
     background-color: #27262c;
     border: none;
     margin-left: 20px;
-    padding: 0px 16px;
+    padding: 0px 15px;
+}
+
+.trade:hover {
+    background-color: #353547;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .tradeDropdownContainer {
@@ -91,6 +104,10 @@ hr {
     padding: 16px;
 }
 
+.tradeElements:hover {
+    background-color: #353547;
+}
+
 .tradeLinks {
     display: flex;
     align-items: center;
@@ -102,13 +119,21 @@ hr {
 }
 
 
-/* EARN */
 
+/* EARN */
 .earn {
+    cursor: pointer;
+    color: #b8add2;
     background-color: #27262c;
     border: none;
     margin-left: 20px;
-    padding: 0px 16px;
+    padding: 0px 15px;
+}
+
+.earn:hover {
+    background-color: #353547;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .earnDropdownContainer {
@@ -146,13 +171,24 @@ hr {
     display: block;
 }
 
-/* WIN */
+.earnElements:hover {
+    background-color: #353547;
+}
 
+/* WIN */
 .win {
+    cursor: pointer;
+    color: #b8add2;
     background-color: #27262c;
     border: none;
     margin-left: 20px;
-    padding: 0px 16px;
+    padding: 0px 15px;
+}
+
+.win:hover {
+    background-color: #353547;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .winDropdownContainer {
@@ -190,13 +226,25 @@ hr {
     display: block;
 }
 
-/* NFT */
+.winElements:hover {
+    background-color: #353547;
+}
 
+
+/* NFT */
 .nft {
+    cursor: pointer;
+    color: #b8add2;
     background-color: #27262c;
     border: none;
     margin-left: 20px;
-    padding: 0px 16px;
+    padding: 0px 15px;
+}
+
+.nft:hover {
+    background-color: #353547;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .nftDropdownContainer {
@@ -233,12 +281,24 @@ hr {
     display: block;
 }
 
+.nftElements:hover {
+    background-color: #353547;
+}
+
 /* POINTS */
 .points {
+    cursor: pointer;
+    color: #b8add2;
     background-color: #27262c;
     border: none;
     margin-left: 20px;
-    padding: 0px 16px;
+    padding: 0px 15px;
+}
+
+.points:hover {
+    background-color: #353547;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .pointsDropdownContainer {
@@ -261,8 +321,10 @@ hr {
 
 .pointsElements {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 16px;
+    height: 48px;
 }
 
 .newPointsElement {
@@ -281,7 +343,7 @@ hr {
     font-size: 14px;
 }
 
-.voteNowPointsElement {
+/* .voteNowPointsElement {
     border-radius: 16px;
     padding: 0px 8px;
     border-style: solid;
@@ -295,7 +357,7 @@ hr {
     line-height: 1.5;
     text-transform: uppercase;
     font-size: 14px;
-}
+} */
 
 .pointsLinks {
     display: flex;
@@ -307,12 +369,16 @@ hr {
     display: block;
 }
 
+.pointsElements:hover {
+    background-color: #353547;
+}
 
 /* RIGHT ELEMENTS */
 
 .rightElementsContainer {
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 /* WALLET AMOUNT */
@@ -322,7 +388,6 @@ hr {
     background-color: #27262c;
     border: 1px solid #27262c;
     border-radius: 16px;
-    margin-right: 10px;
 }
 
 .walletNavLink {
@@ -331,9 +396,9 @@ hr {
 
 /* LANGUAGE */
 .language {
+    cursor: pointer;
     background-color: #27262c;
     border: none;
-    margin-left: 20px;
     padding: 0px 16px;
 }
 
@@ -343,6 +408,7 @@ hr {
     background-color: #27262c;
     border: 1px solid #27262c;
     border-radius: 16px;
+    padding-left: 10px;
 }
 
 .languageDropdownContent {
@@ -351,7 +417,7 @@ hr {
     border: 1px solid #383241;
     border-radius: 16px;
     background-color: #27262c;
-    margin-top: 5px;
+    margin-top: 14px;
     width: 280px;
 }
 
@@ -361,11 +427,126 @@ hr {
     padding: 16px;
 }
 
+.languageElements:hover {
+    background-color: #353547;
+}
+
 .languageDropdownContainer:hover .languageDropdownContent {
     display: block;
 }
 
+/* SETTING */
+.settingIcon {
+    cursor: pointer;
+    color: #f4eeff;
+    background-color: transparent;
+    border: none;
+}
+
 /* NETWORKS */
-.networkDropdowncontainer {
+.networkDropdownContainer {
+    position: relative;
+    display: inline-block;
+    background-color: #27262c;
+    border: 1px solid #27262c;
+    border-radius: 16px;
+    height: 100%;
+    align-items: center;
+}
+
+.network {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #f4eeff;
+    background-color: #353547;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 0 15px 0 0;
+    height: 60%;
+}
+
+.network:hover {
+    color: #b8add2;
+    opacity: 0.60;
+    background-color: #353547;
+    border-radius: 20px;
+    padding: 0 15px 0 0;
+}
+
+.networkIcon {
+    max-height: 30px;
+}
+
+.networkDropdownContent {
     display: none;
+    position: absolute;
+    border: 1px solid #383241;
+    border-radius: 16px;
+    background-color: #27262c;
+    margin-top: 14px;
+    width: 280px;
+}
+
+.networkElements {
+    display: flex;
+    align-items: center;
+    color: #b8add2;
+    background-color: #27262c;
+    border: none;
+    padding: 16px;
+}
+
+.networkElements:hover {
+    background-color: #353547;
+}
+
+.networkElements1 {
+    height: 35px;
+    padding: 5px 16px 10px 16px;
+    margin: 0;
+}
+
+.networkElements1:hover {
+    background-color: #353547;
+}
+
+.networkImg {
+    max-height: 24px;
+}
+
+.networkSpan {
+    padding: 0 15px;
+}
+
+.networkDropdownContainer:hover .networkDropdownContent {
+    display: block;
+}
+
+/* CONNECT WALLET BTN */
+.walletNavBtnContainer {
+    padding: 0 10px;
+}
+
+.walletNavBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1fc7d4;
+    color: #191326;
+    border: 0px none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    padding: 0px 16px;
+    height: 32px;
+
 }
