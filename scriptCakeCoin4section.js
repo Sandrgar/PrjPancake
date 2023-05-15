@@ -1,10 +1,10 @@
 let numero = 0;
-const intervallo = setInterval(somma, 40);
+const intervallo = setInterval(somma, 5);
 
 function somma() {
-    numero += 12530266;
+    numero += 1234567;
     document.querySelector(".statNumber").innerHTML = numero.toLocaleString();
-    if (numero === 250605320) {
+    if (numero > 200605320) {
         clearInterval(intervallo);
     }
     setInterval(() => {
