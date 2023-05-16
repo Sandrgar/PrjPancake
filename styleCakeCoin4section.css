@@ -1,41 +1,45 @@
-
-
-.buyCakeContainer {
-    margin: auto;
-    width: 57%;
-    display: flex;
-    margin-top: 8%;
-    font-family: 'Kanit', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.contentCakeSection {
+.container {
+  background-color: black;
+  height: 100vh;
+  padding: 5%;
+}
+
+.buyCakeContainer {
+    margin: 3% 17% 1%;
+    width: 50%;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
     
-    width:50%;
 }
 
 .contentCakeSection h1 {
     font-size: 38px;
     font-weight: 1000;
-    color: #351e63;
+    color: white;
    
     
 }
 
 .contentCakeSection p {
-  color: #7c5fb2d2;
-  
+  color: #b9a5dd;
+  margin-top: 15px;
 }
 
 
 .imgBunnyCoin img {
     position: relative;
-    left: 100px;
+    left: 60%;
 }
 
 .statsBuyCakeCoin {
-    width: 57%;
-    margin: auto;
-    margin-top: 40px;
+    width: 60%;
+    margin: 0 17%;
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
@@ -46,7 +50,7 @@
 .statsBuyCakeCoin p {
   margin: 0;
   font-size: 24px;
-  color: #311961;
+  color: #ffffff;
 }
 
 
@@ -57,7 +61,7 @@
 .statsBuyCakeCoin h3 {
    margin: 0;
     font-size: 17px;
-    color: #8c6cc8;
+    color: #b9a5dd;
     font-weight: 400;
 }
 
@@ -72,7 +76,7 @@
 }
 
 .statsBuyCakeCoin div:nth-child(2), .statsBuyCakeCoin div:nth-child(5)  {
-   margin: 0 14%
+   margin: 0 18%
 }
 
 .statsBuyCakeCoin div:nth-child(4), .statsBuyCakeCoin div:nth-child(5), .statsBuyCakeCoin div:nth-child(6) {
@@ -92,9 +96,10 @@
 
 
 
-.btn__light__rounded {
+.btn__dark__rounded {
     border-radius: 15px;
     padding: 1rem 1.5rem;
+    margin-top: 30px;
     border-style: none;
     background-color: #1fc7d4;
     box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
@@ -103,23 +108,23 @@
     
     
   }
-  .btn__light__rounded:hover {
+  .btn__dark__rounded:hover {
     opacity: 0.7;
     transition: 0.3s;
   }
-  .btn__light__rounded > a {
+  .btn__dark__rounded > a {
     text-decoration: none;
     color: #191326;
     font-weight: 900;
     display: flex;
     align-items: center;
     gap: 0.2rem;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   
 
-.btn__light__rounded_scopri {
+.btn__dark__rounded_scopri {
     
     padding: 1rem 1.5rem;
     border-style: none;
@@ -129,11 +134,11 @@
     height: 32px;
   }
 
-  .btn__light__rounded_scopri:hover {
+  .btn__dark__rounded_scopri:hover {
     text-decoration: underline #1fc7d4;
   }
 
-  .btn__light__rounded_scopri > a {
+  .btn__dark__rounded_scopri > a {
     text-decoration: none;
     color: #191326;
     font-weight: 800;
@@ -145,11 +150,11 @@
     
   }
   
-  .btn__light__rounded_scopri > a > svg {
+  .btn__dark__rounded_scopri > a > svg {
     fill: #191326;
   }
 
-  .btn__light__rounded_scopri > a > svg {
+  .btn__dark__rounded_scopri > a > svg {
     fill: #1fc7d4
   }
 
