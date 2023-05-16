@@ -6,16 +6,18 @@
 
 .container {
   background-color: black;
-  height: 100vh;
   padding: 5%;
 }
 
 .buyCakeContainer {
     margin: 3% 17% 1%;
-    width: 50%;
+    
     display: flex;
     font-family: 'Kanit', sans-serif;
-    
+}
+
+.contentCakeSection {
+  width: 50%;
 }
 
 .contentCakeSection h1 {
@@ -32,9 +34,57 @@
 }
 
 
-.imgBunnyCoin img {
+/* .imgBunnyCoin img {
     position: relative;
     left: 60%;
+} */
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateX(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  
+}
+
+.bunnyCoin4section {
+  width: 400px;
+  position: absolute;
+  left: 53%;
+  bottom: 39%;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+.top-left-chip4section {
+  width: 380px;
+  position: absolute;
+  left: 53%;
+  bottom: 39%;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.bot-right-chip4section {
+  width: 380px;
+  position: absolute;
+  left: 55%;
+  bottom: 39%;
+  animation: bounce 4s ease-in-out infinite;
+}
+
+.top-right-chip4section {
+  width: 380px;
+  position: absolute;
+  left: 55%;
+  bottom: 39%;
+  animation: bounce 3s ease-in-out infinite;
 }
 
 .statsBuyCakeCoin {
