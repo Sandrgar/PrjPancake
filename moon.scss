@@ -23,12 +23,11 @@ body {
   }
   #moon-pancake {
     display: flex;
-    justify-content: center;
-    margin: 8%;
+    margin: 5% 0% 8% 15%;
     .moon-text {
       display: flex;
       flex-direction: column;
-      flex: 1 1 0%;
+      width: 100%;
       margin-top: 10%;
       #moon-title {
         font-size: 64px;
@@ -79,18 +78,15 @@ body {
     }
     .bunny-container {
       display: flex;
-      flex: 1 1 0%;
+      width: 100%;
       .bunny-img {
         animation: bounce 3.5s ease-in-out 0s infinite;
         #astro-bunny {
-          position: absolute;
-          width: 576px;
-          height: 576px;
+          max-width: 576px;
         }
       }
       .star-container {
         position: absolute;
-        top: 100px;
         .star-flex {
           position: relative;
           max-height: 512px;
@@ -142,13 +138,26 @@ body {
     transition: 0.2s;
   }
 }
-// --Media queries first astro-bunny
+// --Media queries moonPancake
 @media (max-width: 852px) {
   #moon-pancake {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+
     .bunny-container {
-      position: relative;
+      #astro-bunny {
+        width: 40%;
+      }
+
+      .top-right-star img {
+        width: 250px;
+      }
+      .right-star img {
+        width: 250px;
+      }
+      .left-star img {
+        width: 250px;
+      }
     }
   }
 }

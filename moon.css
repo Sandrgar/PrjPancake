@@ -22,13 +22,12 @@
 }
 body #moon-pancake {
   display: flex;
-  justify-content: center;
-  margin: 8%;
+  margin: 5% 0% 8% 15%;
 }
 body #moon-pancake .moon-text {
   display: flex;
   flex-direction: column;
-  flex: 1 1 0%;
+  width: 100%;
   margin-top: 10%;
 }
 body #moon-pancake .moon-text #moon-title {
@@ -77,19 +76,16 @@ body #moon-pancake .moon-text .moon-btn #trade-btn:hover {
 }
 body #moon-pancake .bunny-container {
   display: flex;
-  flex: 1 1 0%;
+  width: 100%;
 }
 body #moon-pancake .bunny-container .bunny-img {
   animation: bounce 3.5s ease-in-out 0s infinite;
 }
 body #moon-pancake .bunny-container .bunny-img #astro-bunny {
-  position: absolute;
-  width: 576px;
-  height: 576px;
+  max-width: 576px;
 }
 body #moon-pancake .bunny-container .star-container {
   position: absolute;
-  top: 100px;
 }
 body #moon-pancake .bunny-container .star-container .star-flex {
   position: relative;
@@ -141,9 +137,18 @@ body #moon-pancake .bunny-container .star-container .right-star {
 @media (max-width: 852px) {
   #moon-pancake {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
-  #moon-pancake .bunny-container {
-    position: relative;
+  #moon-pancake .bunny-container #astro-bunny {
+    width: 40%;
+  }
+  #moon-pancake .bunny-container .top-right-star img {
+    width: 250px;
+  }
+  #moon-pancake .bunny-container .right-star img {
+    width: 250px;
+  }
+  #moon-pancake .bunny-container .left-star img {
+    width: 250px;
   }
 }/*# sourceMappingURL=moon.css.map */
