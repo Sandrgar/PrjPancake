@@ -40,18 +40,18 @@
     left: 60%;
 } */
 
-@keyframes bounce {
+@keyframes bunnyCoinBounce {
   0% {
-    transform: translateX(0px);
-    transform: translateY(0px);
+    transform: translate(0px);
+    
   }
   50% {
-    transform: translateX(10px);
-    transform: translateY(10px);
+    transform: translate(-6px, -6px);
+    
   }
   100% {
-    transform: translateX(0px);
-    transform: translateY(0px);
+    transform: translate(0px);
+    
   }
   
 }
@@ -61,7 +61,7 @@
   position: absolute;
   left: 53%;
   bottom: 39%;
-  animation: bounce 3s ease-in-out infinite;
+  animation: bunnyCoinBounce 3s ease-in-out infinite;
 }
 
 .top-left-chip4section {
@@ -69,7 +69,7 @@
   position: absolute;
   left: 53%;
   bottom: 39%;
-  animation: bounce 2s ease-in-out infinite;
+  animation: bunnyCoinBounce 2s ease-in-out infinite;
 }
 
 .bot-right-chip4section {
