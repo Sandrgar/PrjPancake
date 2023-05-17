@@ -32,12 +32,18 @@
     position: absolute;
 }
 
+.first-slideText{
+    position: absolute;
+    ;
+}
+
+
 #bunny-photo-slide1 {
     width: 350px;
     position: relative;
     bottom: 33px;
     left: 730px;
-    
+
 }
 
 #topCoin-slide1 {
@@ -48,7 +54,7 @@
 }
 
 .rightCoin-div {
-    
+
     width: 1124px;
     border-radius: 35px;
     position: absolute;
@@ -62,23 +68,58 @@
     width: 80px;
 }
 
-#upStar-carousel1{
+#upStar-carousel1 {
     width: 25px;
     position: relative;
     bottom: 150px;
     left: 45px;
 }
-#rightStar-carousel1{
+
+#rightStar-carousel1 {
     width: 40px;
     position: relative;
     bottom: 110px;
     left: 110px;
 }
 
-#firstSlide-texts{
+#firstSlide-texts {
     position: relative;
     bottom: 170px;
     left: 25px;
+}
+
+/* BUTTON */
+.btn__dark__rounded {
+    position: relative;
+    bottom: 90px;
+    right: 550px;
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    border-style: none;
+    background-color: #1fc7d4;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 0 1.5rem;
+    height: 50px;
+}
+
+.btn__dark__rounded:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.btn__dark__rounded>a {
+    text-decoration: none;
+    color: #191326;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.btn__dark__rounded>a>svg {
+    fill: #191326;
 }
 
 
@@ -86,11 +127,110 @@
 /* SECOND SLIDE CAROUSEL */
 
 .second-slide {
-    background-color: tomato;
+    background: linear-gradient(239.62deg, rgba(49, 78, 119, 0.35) 15.52%, rgba(60, 46, 87, 0.35) 86.5%), linear-gradient(114.79deg, rgb(192, 64, 252) -17.76%, rgb(75, 60, 255) 99.88%);
     border-radius: 35px;
     margin: auto;
     margin-top: 15px;
+    position: relative;
 }
+
+.second-slideLogo {
+    width: 20px;
+}
+
+.second-slideLogoText {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.v3-textTop {
+    padding: 30px 0 0 20px;
+
+
+}
+
+.v3-textBot {
+    margin-left: 10px;
+}
+
+.moon-photo-slide2 {
+    position: absolute;
+    bottom: 0px;
+    width: 621px;
+    left: 503px;
+
+}
+
+@keyframes flag-bounce {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(2px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.flag-photo-slide2 {
+    position: absolute;
+    bottom: 0px;
+    width: 171px;
+    right: 60px;
+    animation: flag-bounce 3s ease-in-out infinite;
+}
+
+@keyframes coin-bounce {
+    0% {
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateX(10px);
+        transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+
+}
+
+.criptoCoin-photo-slide2 {
+    position: absolute;
+    bottom: 72px;
+    width: 201px;
+    left: 920px;
+    z-index: 100;
+    animation: coin-bounce 5s ease-in-out infinite;
+    z-index: 300;
+}
+
+.eterniumCoin-photo-slide2 {
+    position: absolute;
+    bottom: 20px;
+    z-index: 400;
+    width: 210px;
+    right: 430px;
+    animation: coin-bounce 5s ease-in-out infinite;
+}
+
+.bunny-photo-slide2 {
+    position: absolute;
+    width: 20%;
+    right: 160px;
+    z-index: 100;
+    bottom: -32px;
+   
+
+}
+
 
 /* THIRD SLIDE CAROUSEL */
 
@@ -114,6 +254,42 @@
     position: absolute;
 }
 
+.title-slide4 {
+    position: absolute;
+}
+
+/* BUTTON */
+.btn__dark__rounded3 {
+    position: relative;
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    border-style: none;
+    background-color: #1fc7d4;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 0 1.5rem;
+    height: 50px;
+}
+
+.btn__dark__rounded3:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.btn__dark__rounded3>a {
+    text-decoration: none;
+    color: #191326;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.btn__dark__rounded3>a>svg {
+    fill: #191326;
+}
+
 /* FOURTH SLIDE CAROUSEL  */
 
 .fourth-slide {
@@ -124,28 +300,73 @@
 
 }
 
-.fourth-slide-imgLogo-container {
-    display: flex;
-}
-
 .logo-ps-carousel {
-    width: 20px;
+    width: 140px;
     margin-top: 10px;
     margin-left: 20px;
 }
 
-.p-imgLogo {
-    margin-top: 10px;
-    margin-left: 10px;
+#bunny-slide4 {
+    width: 1000px;
+    position: relative;
+    bottom: 49px;
+    left: 124px;
 }
+
+/* BUTTON */
 
 /* FIFTH SLIDE CAROUSEL */
 
 .fifth-slide {
-    background-color: tomato;
+    background: rgb(27, 31, 75);
+    background: linear-gradient(0deg, rgba(27, 31, 75, 1) 4%, rgba(56, 14, 112, 1) 20%);
     border-radius: 35px;
     margin: auto;
     margin-top: 15px;
+}
+
+.bunny-photo-slide5 {
+    width: 408px;
+    position: relative;
+    bottom: 42px;
+    left: 710px;
+}
+
+.title-slide5 {
+    position: absolute;
+}
+
+/* BUTTON */
+.btn__dark__rounded5 {
+    position: relative;
+
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    border-style: none;
+    background-color: #1fc7d4;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 0 1.5rem;
+    height: 50px;
+}
+
+.btn__dark__rounded5:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.btn__dark__rounded5>a {
+    text-decoration: none;
+    color: #191326;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.btn__dark__rounded5>a>svg {
+    fill: #191326;
 }
 
 /* BUTTONS CAROUSEL SLIDES  */
@@ -169,9 +390,9 @@
 
 .carousel-buttons {
     cursor: pointer;
-    height: 10px;
-    width: 24px;
-    margin-left: -4px;
+    height: 9px;
+    width: 22px;
+    margin-left: -4.4px;
     position: relative;
     bottom: 20px;
     background-color: rgba(255, 255, 255, 0.363);
