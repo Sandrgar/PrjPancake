@@ -1,10 +1,10 @@
 let slideIndex = 1;
 showSlides(slideIndex);     
  
-setInterval(function() { 
-    slideIndex++;
-    showSlides(slideIndex);
-}, 5000);
+// setInterval(function() { 
+//     slideIndex++;
+//     showSlides(slideIndex);
+// }, 5000);
 
 function currentSlide(n) {
     showSlides(slideIndex = n);
