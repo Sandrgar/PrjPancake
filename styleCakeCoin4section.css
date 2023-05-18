@@ -58,7 +58,7 @@
 
 .bunnyCoin4section {
   width: 400px;
-  position: absolute;
+  position: relative;
   left: 53%;
   bottom: 39%;
   animation: bunnyCoinBounce 3s ease-in-out infinite;
@@ -66,7 +66,7 @@
 
 .top-left-chip4section {
   width: 380px;
-  position: absolute;
+  position: relative;
   left: 53%;
   bottom: 39%;
   animation: bunnyCoinBounce 2s ease-in-out infinite;
@@ -74,7 +74,7 @@
 
 .bot-right-chip4section {
   width: 380px;
-  position: absolute;
+  position: relative;
   left: 55%;
   bottom: 39%;
   animation: bounce 4s ease-in-out infinite;
@@ -82,7 +82,7 @@
 
 .top-right-chip4section {
   width: 380px;
-  position: absolute;
+  position: relative;
   left: 55%;
   bottom: 39%;
   animation: bounce 3s ease-in-out infinite;
