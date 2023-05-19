@@ -34,7 +34,7 @@
 
 .first-slideText{
     position: absolute;
-    ;
+    
 }
 
 
@@ -90,9 +90,8 @@
 
 /* BUTTON */
 .btn__dark__rounded {
-    position: relative;
-    bottom: 90px;
-    right: 550px;
+    
+    margin-top: 50px;
     border-radius: 15px;
     padding: 1rem 1.5rem;
     border-style: none;
