@@ -40,7 +40,7 @@
 
 .first-slide-left-content p:nth-child(3) {
     margin: 10px 0;
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(185, 157, 0);
     text-shadow:
         -1px 0px 0px rgb(197, 25, 254),
@@ -155,13 +155,12 @@
 /* BUTTON FIRST SLIDE */
 .btn__dark__rounded_carousel_getStarted {
     border-radius: 15px;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     border-style: none;
     background-color: #1fc7d4;
     box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
     cursor: pointer;
     border-radius: 20px;
-    padding: 0 1rem;
     height: 50px;
 }
 
@@ -586,6 +585,7 @@
 
 .btn__dark__rounded_carousel_getInTouch>a {
     text-decoration: none;
+    font-size: 14px;
     color: #000000;
     font-weight: 800;
     display: flex;
@@ -636,11 +636,13 @@
 
 .fifth-slide-left-content h2 {
     color: rgb(222, 189, 0);
+    font-size: 26px;
     font-weight: 800;
 }
 
 .fifth-slide-left-content h1 {
     color: white;
+    font-size: 30px;
     font-weight: 800;
     margin-top: 5px;
 }
