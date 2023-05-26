@@ -59,6 +59,7 @@
 }
 
 #bunny-photo-slide1 {
+  z-index: 0;
   position: absolute;
   height: 200px;
   width: 20%;
