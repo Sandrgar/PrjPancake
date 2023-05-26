@@ -497,6 +497,10 @@ hr {
     max-height: 30px;
 }
 
+.networkIconSpan2 {
+    display: none;
+}
+
 .networkDropdownContent {
     display: none;
     position: absolute;
@@ -565,5 +569,57 @@ hr {
     transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
     padding: 0px 16px;
     height: 32px;
+
+}
+
+.walletSpan2 {
+    display: none;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1180px) {
+
+    .networkIconSpan,
+    .walletSpan {
+        display: none;
+    }
+
+    .networkIconSpan2,
+    .walletSpan2 {
+        display: block;
+    }
+}
+
+@media (max-width:970px) {
+
+    .logoTitle,
+    .walletAmount,
+    .networkIconSpan {
+        display: none;
+    }
+
+    .networkIconSpan2 {
+        display: block;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    .trade,
+    .earn,
+    .win,
+    .nft,
+    .points,
+    .logoTitle,
+    .networkIconSpan {
+        display: none;
+    }
+
+    .networkIconSpan2 {
+        display: block;
+    }
 
 }
