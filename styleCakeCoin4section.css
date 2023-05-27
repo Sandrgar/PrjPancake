@@ -227,7 +227,97 @@
 
 
 
+/* MEDIA QUERIES  */
 
+@media screen and (max-width: 850px) {
+  .mainBuyCakeContainer {
+    height: 45%;
+  }
+
+  .buyCakeContainer {
+    margin: 0px;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.contentCakeSection {
+  width: 100%;
+  margin-left: 0%;
+  height: 20vh;
+  
+
+}
+
+.statsBuyCakeCoin {
+    width: 60%;
+    margin: 0px 17%;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.imgBunnyCoin {
+  width: 50%;
+  height: 40vh;
+  
+}
+
+/* IMMAGINE BUNNY  */
+
+@keyframes bunnyCoinBounce {
+  0% {
+    transform: translate(0px);
+    
+  }
+  50% {
+    transform: translate(-6px, -6px);
+    
+  }
+  100% {
+    transform: translate(0px);
+    
+  }
+  
+}
+
+.bunnyCoin4section {
+  width: 210px;
+  position: relative;
+  left: 7%;
+  bottom: 445px;
+  animation: bunnyCoinBounce 3s ease-in-out infinite;
+  
+}
+
+.top-left-chip4section {
+  width: 190px;
+  position: relative;
+  left: 10%;
+  bottom: 850px;
+  animation: bunnyCoinBounce 2s ease-in-out infinite;
+}
+
+.bot-right-chip4section {
+  width: 195px;
+  position: relative;
+  left: 10%;
+  bottom: 10%;
+  animation: bounce 4s ease-in-out infinite;
+}
+
+.top-right-chip4section {
+  width: 190px;
+  position: relative;
+  left: 14%;
+  bottom: 76rem;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+  }
 
 
 
