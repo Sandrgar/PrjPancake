@@ -23,7 +23,7 @@
 .contentCakeSection {
   width: 50%;
   margin-left: 2%;
-  height: 35vh;
+  height: 45vh;
 
 }
 
@@ -113,7 +113,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding-top: 80px;
+  padding-top: 70px;
   margin: auto;
   font-family: 'Kanit', sans-serif;
   font-size: 20px;
@@ -147,8 +147,8 @@
 
 .btn__dark__rounded {
   border-radius: 15px;
-  padding: 1rem 1.5rem;
-  margin-top: 30px;
+  padding: 14px 1rem;
+  margin-top: 35px;
   border-style: none;
   background-color: #1fc7d4;
   box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
@@ -166,7 +166,7 @@
 .btn__dark__rounded>a {
   text-decoration: none;
   color: #191326;
-  font-weight: 900;
+  font-weight: 800;
   display: flex;
   align-items: center;
   gap: 0.2rem;
@@ -480,13 +480,10 @@
 
 
   .statsBuyCakeCoin {
-
     width: 100%;
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    padding-top: 30px;
-    padding-bottom: 50px;
     margin: auto;
     font-family: 'Kanit', sans-serif;
     
@@ -503,6 +500,7 @@
     color: #b9a5dd;
     font-weight: 800;
     margin-bottom: 7px;
+    
   }
 
   .statsBuyCakeCoin div {
@@ -533,7 +531,7 @@
 
 
 .mainBuyCakeContainer {
-  padding: 12px;
+  padding: 25px;
 }
 
 @media screen and (max-width: 420px) {
@@ -660,7 +658,7 @@
     padding-bottom: 50px;
     margin: auto;
     font-family: 'Kanit', sans-serif;
-    margin-top: 25px;
+    margin-top: 55px;
     
   }
 
