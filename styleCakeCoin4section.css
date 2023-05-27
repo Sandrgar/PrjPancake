@@ -25,7 +25,6 @@
   margin-left: 2%;
   height: 35vh;
 
-
 }
 
 .contentCakeSection h1 {
@@ -143,35 +142,11 @@
 
 .statsBuyCakeCoin .firstRowStats {
   display: flex;
-
-
 }
 
 .statsBuyCakeCoin .secondRowStats {
   display: flex;
-
-
 }
-
-/* .statsBuyCakeCoin div:nth-child(2), .statsBuyCakeCoin div:nth-child(5)  {
-   margin: 0 18%
-}
-
-.statsBuyCakeCoin div:nth-child(4), .statsBuyCakeCoin div:nth-child(5), .statsBuyCakeCoin div:nth-child(6) {
-    margin-top: 26px
-}
-
-.statsBuyCakeCoin div:nth-child(1), .statsBuyCakeCoin div:nth-child(2), .statsBuyCakeCoin div:nth-child(3) {
-    margin-top: 4rem;
-}
-
-.statsBuyCakeCoin div:nth-child(2), .statsBuyCakeCoin div:nth-child(3), .statsBuyCakeCoin div:nth-child(5), .statsBuyCakeCoin div:nth-child(6) {
-  border-left: 0.1px solid #9260ff34 ;
-  height: 60px;
-  padding: 0 0 0px 16px;
-
-} */
-
 
 
 .btn__dark__rounded {
@@ -335,6 +310,223 @@
     animation: bounce 3s ease-in-out infinite;
   }
 
+  /* stats media q */
+
+  .statsBuyCakeCoin {
+
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+  }
+
+  .statsBuyCakeCoin p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+
+  .statsBuyCakeCoin span {
+    font-size: 20px;
+  }
+
+  .statsBuyCakeCoin h3 {
+    font-size: 17px;
+    color: #b9a5dd;
+    font-weight: 800;
+  }
+
+  .statsBuyCakeCoin div {
+    width: 60%;
+
+  }
+
+  .statsBuyCakeCoin .firstRowStats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+
+  }
+
+  .statsBuyCakeCoin .secondRowStats {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  /* SMARTPHONE MEDIA QUERIES */
+
+}
+
+@media screen and (max-width: 400px) {
+  .mainBuyCakeContainer {
+    height: 100%;
+  }
+
+  .buyCakeContainer {
+    margin: 0px;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .contentCakeSection {
+    width: 100%;
+    margin-left: 0%;
+    height: 30vh;
+  }
+
+  .contentCakeSection h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: white;
+  
+  }
+  
+  #cakeWord {
+    color: #7c3fff;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  
+  .contentCakeSection p {
+    color: #b9a5dd;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+
+  .statsBuyCakeCoin {
+    width: 60%;
+    margin: 0px 17%;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+  }
+
+  .imgBunnyCoin {
+    width: 50%;
+    height: 20vh;
+    align-self: flex-end;
+
+  }
+
+  /* IMMAGINE BUNNY  */
+
+  @keyframes bunnyCoinBounce {
+    0% {
+      transform: translate(0px);
+
+    }
+
+    50% {
+      transform: translate(-6px, -6px);
+
+    }
+
+    100% {
+      transform: translate(0px);
+
+    }
+
+  }
+
+  .bunnyCoin4section {
+    width: 200px;
+    position: relative;
+    bottom: 230px;
+    left: -15px;
+    
+    animation: bunnyCoinBounce 3s ease-in-out infinite;
+
+  }
+
+  .top-left-chip4section {
+    width: 190px;
+    position: relative;
+    left: -15px;
+    bottom: 422px;
+    animation: bunnyCoinBounce 2s ease-in-out infinite;
+
+  }
+
+  .bot-right-chip4section {
+    width: 195px;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+    animation: bounce 4s ease-in-out infinite;
+  }
+
+  .top-right-chip4section {
+    width: 190px;
+    position: relative;
+    left: 33%;
+    bottom: 560px;
+    animation: bounce 3s ease-in-out infinite;
+  }
+
+  /* stats media q */
+
+  .statsBuyCakeCoin {
+
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+    
+  }
+
+  .statsBuyCakeCoin p {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+
+  .statsBuyCakeCoin span {
+    font-size: 12px;
+  }
+
+  .statsBuyCakeCoin h3 {
+    font-size: 15px;
+    color: #b9a5dd;
+    font-weight: 800;
+  }
+
+  .statsBuyCakeCoin div {
+    width: 100%;
+    
+  }
+
+  .statsBuyCakeCoin .firstRowStats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 43%;
+
+  }
+
+  .statsBuyCakeCoin .secondRowStats {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 40%;
+  }
 
 
 }
