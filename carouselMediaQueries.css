@@ -1,0 +1,250 @@
+/* -----------MEDIA QUERIES TABLET CAROUSEL */
+
+@media screen and (max-width: 950px) {
+
+    /* ---------FIRST SLIDE CAROUSEL */
+
+    .container-carousel {
+        width: 90%;
+
+    }
+
+    .backgorundFirst-section {
+        padding-top: 100px;
+        background: radial-gradient(103.12%50%at 50%50%, #21193a 0%, #191326 100%);
+        height: 100%
+    }
+
+    .first-slide {
+        border-radius: 35px;
+        margin: auto;
+        margin-top: 15px;
+        background: linear-gradient(189.57deg, rgb(232, 250, 254) -83.55%, rgb(182, 228, 255) -40.3%, rgb(204, 194, 254) 123.53%, rgb(198, 163, 255) 176.26%);
+        display: flex;
+        overflow: hidden;
+    }
+
+    .first-slide-left-content {
+        padding: 1.2% 0 0 2%;
+        width: 60%;
+        height: 100%;
+    }
+
+    #logos-slide1 {
+        width: 350px;
+    }
+
+    .first-slide-left-content p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .first-slide-left-content p:nth-child(3) {
+        font-size: 18px;
+    }
+
+    /* RIGHT CONTENT FIRST SLIDE */
+
+    .first-slide-right-content {
+        width: 45%;
+        height: 100%;
+        border-radius: 35px;
+        background: transparent;
+    }
+
+    #bunny-photo-slide1 {
+        width: 28%;
+
+    }
+
+    #bunny-photo-slide1 img {
+        left: 40px;
+    }
+
+
+    #topCoin-slide1 img {
+        display: none;
+
+    }
+
+    #rightCoin-slide1 img {
+        display: none;
+    }
+
+    /* BUTTON FIRST SLIDE */
+    .btn__dark__rounded_carousel_getStarted {
+        height: 40px;
+        padding: 0 1rem;
+        margin-top: 5px;
+    }
+
+    .btn__dark__rounded_carousel_learn {
+        height: 40px;
+    }
+
+
+    /* ---------SECOND SLIDE CAROUSEL */
+
+    .second-slide-left-content {
+
+        width: 50%;
+        height: 100%;
+        padding: 2% 0 0 2%;
+    }
+
+    .second-slide-left-content h1 {
+        font-size: 24px;
+    }
+
+    .second-slide-left-content div {
+        margin-top: 20px;
+    }
+
+    .second-slide-left-content p {
+        font-size: 20px;
+    }
+
+    .second-slideLogo {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .second-slide-left-content button {
+        margin: 20px 0 0 10px;
+    }
+
+
+
+    /*  SECOND SLIDE RIGHT CONTENT */
+
+
+    .second-slide-right-content {
+        width: 50%;
+        height: 100%;
+
+
+    }
+
+    .moon-photo-slide2 {
+        width: 50%;
+        position: absolute;
+        
+
+    }
+
+    .moon-photo-slide2 img {
+        width: 600px;
+        right: 45%;
+    }
+
+
+
+    .flag-photo-slide2 {
+        width: 16%;
+        right: 5%;
+        position: absolute;
+
+    }
+
+    .flag-photo-slide2 img {
+        right: 20%;
+
+    }
+
+
+    .criptoCoin-photo-slide2 {
+        position: absolute;
+        height: 20%;
+        width: 25%;
+        right: 1%;
+
+    }
+
+    .criptoCoin-photo-slide2 img {
+        right: 0px;
+        top: 2%;
+    }
+
+
+    .eterniumCoin-photo-slide2 {
+        display: none;
+    }
+
+    .bunny-photo-slide2 {
+        position: absolute;
+        height: 20%;
+        width: 20%;
+        right: 10%;
+
+    }
+
+    .bunny-photo-slide2 img {
+        right: 90%;
+        bottom: 17%;
+        height: 280px;
+    }
+
+
+    /*  THIRD SLIDE MEDIA QUERIES */
+
+    .third-slide-right-content {
+        width: 0%;
+    }
+    
+    #bunny-photo-slide3 {
+        
+        position: absolute;
+        height: 200px;
+        width: 30%;
+        
+    }
+    
+    #bunny-photo-slide3 img{
+        position: relative;
+        height: 230px;
+        bottom: 15%;
+        width: 100%;
+        right: 40px;
+    }
+
+    /*  FOURTH SLIDE MEDIA QUERIES*/
+
+    .fourth-slide-left-content {
+        width: 50%;
+        height: 200px;
+    }
+
+    .fourth-slide-right-content {
+        width: 90%;
+        position: absolute;
+        
+    }
+    
+    #bunny-slide4 {
+        width: 100%;
+       
+    }
+    
+    /* FIFTH SECTION CAROUSEL  */
+
+    .fifth-slide-left-content {
+        width: 80%;
+    
+    }
+
+    .fifth-slide-right-content {
+        position: absolute;
+        width: 60%;
+    }
+
+    .bunny-photo-slide5 img {
+        position: relative;
+        bottom: 21%;
+        height: 121%;
+        left: 90%;
+        width: 60%;
+    }
+
+}
+
+
