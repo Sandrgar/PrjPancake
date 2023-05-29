@@ -1,6 +1,6 @@
 /* -----------MEDIA QUERIES TABLET CAROUSEL */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1350px) {
 
     /* ---------FIRST SLIDE CAROUSEL */
 
@@ -89,7 +89,7 @@
 
         width: 50%;
         height: 100%;
-        padding: 2% 0 0 2%;
+        padding: 1% 0 0 2%;
     }
 
     .second-slide-left-content h1 {
@@ -249,11 +249,22 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* -----------MEDIA QUERIES SMARTPHONE CAROUSEL */
 
 /* -----------FIRST SLIDE MEDIA Q */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
 
     
 .first-slide-left-content {
@@ -264,16 +275,17 @@
 }
 
 #bunny-photo-slide1 {
-    width: 35%;
+    width: 45%;
     right: 50px;
+    z-index: 0;
 }
 
 #bunny-photo-slide1 img {
     width: 100%;
-    height: 160px;
-    left: 30px;
-    bottom: 30px;
-    top: 40px;
+    height: 170px;
+    left: 45px;
+    bottom: 40px;
+    top: 30px;
 }
 
 #logos-slide1 {
@@ -283,10 +295,14 @@
 
 .first-slide-left-content p:nth-child(2) {
     font-size: 16px;
+    position: relative;
+    z-index: 1000;
 }
 
 .first-slide-left-content p:nth-child(3) {
     font-size: 16px;
+    position: relative;
+    z-index: 1000;
 }
 
 /* BUTTON FIRST SLIDE */
@@ -312,7 +328,8 @@
     height: 20px;
     padding: 0 8px;
     margin-top: 5px;
-    
+    position: relative;
+    z-index: 1000;
 }
 
 .btn__dark__rounded_carousel_learn a {
@@ -326,6 +343,279 @@
 }
 
 /* -----------SECOND SLIDE MEDIA Q */
+
+.second-slide-left-content {
+    width: 68%;
+    height: 100%;
+    
+}
+
+.second-slide-left-content h1 {
+    font-size: 22px;
+    padding: 0px 0px 0px 10px;
+}
+
+.second-slide-left-content div {
+    margin-top: 20px;
+}
+
+.second-slide-left-content p {
+    text-align: center;
+    padding-top: 5px;
+    margin-top: -30px;
+    font-size: 13px;
+}
+
+.second-slideLogo {
+    width: 25px;
+    height: 25px;
+    margin-top: -30px;
+    margin-left: 10px;
+    
+}
+
+.second-slide-left-content button {
+    margin: 20px 0 0 10px;
+}
+
+.btn__dark__rounded_carousel_discoverV3 {
+    height: 35px;
+    padding: 10px 15px;
+    
+}
+
+.slide2-logoP-h1 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+/*  SECOND SLIDE RIGHT CONTENT */
+
+
+.second-slide-right-content {
+    width: 50%;
+    height: 100%;
+}
+
+.moon-photo-slide2 {
+    width: 60%;
+    height: 100px;
+    position: absolute;
+    right: 5%;
+    overflow: hidden;
+    top: 215px;
+    border-radius: 35px;
+    
+}
+
+.moon-photo-slide2 img {
+    width: 320px;
+    right: 0%;
+    left: -15px;
+    height: 150px;
+    bottom: 50px;
+   
+}
+
+
+
+.flag-photo-slide2 {
+    width: 28%;
+    right: 5%;
+    position: absolute;
+    
+}
+
+.flag-photo-slide2 img {
+    right: 0px;
+    left: 30px;
+    bottom: 20px;
+    width: 90%;
+    height: 140px;
+}
+
+
+.bunny-photo-slide2 {
+    position: absolute;
+    height: 9%;
+    width: 9%;
+    right: 29%;
+
+}
+
+.bunny-photo-slide2 img {
+    right: 95%;
+    top: 16px;
+    height: 210px;
+    width: 160px;
+}
+
+.criptoCoin-photo-slide2 {
+    display: none;
+
+}
+
+.eterniumCoin-photo-slide2 {
+    display: none;
+}
+
+/*  ---------------------THIRD SLIDE RIGHT CONTENT */
+
+.third-slide-left-content {
+    width: 68%;
+    padding: 35px 0 0 15px;
+}
+
+.third-slide-left-content h1 {
+    font-size: 17px;
+    position: relative;
+    z-index: 1000;
+    
+}
+
+.third-slide-left-content h2 {
+    margin-top: 10px;
+    font-size: 14px;
+    
+}
+
+/* BUTTON */
+.btn__dark__rounded_carousel_proceed {
+    padding: 0 9px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+
+.btn__dark__rounded_carousel_proceed>a {
+    gap: 0.2rem;
+    font-size: 15px;
+}
+
+
+.btn__dark__rounded_carousel_guide {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 0 9px;
+    height: 30px;
+    
+}
+
+.btn__dark__rounded_carousel_guide>a {
+    font-size: 15px;
+}
+
+
+#bunny-photo-slide3 {
+    position: absolute;
+    right: 5%;
+    height: 200px;
+    width: 40%;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+#bunny-photo-slide3 img{
+    position: relative;
+    height: 200px;
+    bottom: 0%;
+    width: 230px;
+    right: 35px;
+}
+
+/*  ---------------------FOURTH SLIDE RIGHT CONTENT */
+
+.fourth-slide-left-content {
+    width: 50%;
+    height: 200px;
+}
+
+.logo-fourth-slide-carousel img {
+    width: 80%;
+}
+
+.fourth-slide-left-content h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.btn__dark__rounded_carousel_getInTouch {
+    margin-top: 20px;
+    width: 180px;
+    padding: 2px 25px;
+    border-radius: 20px;
+
+}
+
+.btn__dark__rounded_carousel_getInTouch>a {
+    font-weight: 700;
+    
+}
+
+.fourth-slide-right-content {
+    width: 90%;
+    position: absolute;
+    
+}
+
+#bunny-slide4 {
+    width: 100%;
+}
+
+#bunny-slide4 img{
+    height: 100px;
+    position: relative;
+    top: 107px;
+   
+}
+
+/*  ---------------------FIFTH SLIDE RIGHT CONTENT */
+
+
+.fifth-slide-left-content {
+    width: 65%;
+    position: relative;
+    z-index: 1000;
+}
+
+.fifth-slide-left-content h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.fifth-slide-left-content h1 {
+    font-size: 17px;
+    font-weight: 800;
+    
+}
+
+.fifth-slide-right-content {
+    width: 60%;
+}
+
+.bunny-photo-slide5 {
+    height: 200px;
+    
+}
+
+.bunny-photo-slide5 img {
+    position: relative;
+    bottom: 40px;
+    height: 240px;
+    left: 58%;
+    border-radius: 35px;
+    width: 215px;
+}
+
+.btn__dark__rounded5 {
+    margin-top: 15px;
+   
+}
+
+
 
 
 }
