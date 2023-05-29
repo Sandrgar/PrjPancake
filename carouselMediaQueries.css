@@ -28,6 +28,7 @@
         padding: 1.2% 0 0 2%;
         width: 60%;
         height: 100%;
+        
     }
 
     #logos-slide1 {
@@ -52,12 +53,12 @@
     }
 
     #bunny-photo-slide1 {
-        width: 28%;
+        width: 30%;
 
     }
 
     #bunny-photo-slide1 img {
-        left: 40px;
+        left: 70px;
     }
 
 
@@ -121,20 +122,20 @@
     .second-slide-right-content {
         width: 50%;
         height: 100%;
-
-
     }
 
     .moon-photo-slide2 {
-        width: 50%;
+        width: 60%;
         position: absolute;
+        right: 5%;
+        overflow: hidden;
         
-
     }
 
     .moon-photo-slide2 img {
         width: 600px;
-        right: 45%;
+        right: 0%;
+        left: -70px;
     }
 
 
@@ -179,7 +180,7 @@
     }
 
     .bunny-photo-slide2 img {
-        right: 90%;
+        right: 95%;
         bottom: 17%;
         height: 280px;
     }
@@ -248,3 +249,83 @@
 }
 
 
+/* -----------MEDIA QUERIES SMARTPHONE CAROUSEL */
+
+/* -----------FIRST SLIDE MEDIA Q */
+
+@media screen and (max-width: 420px) {
+
+    
+.first-slide-left-content {
+    padding: 0px 0px 20px 10px;
+    width: 60%;
+    height: 100%;
+        
+}
+
+#bunny-photo-slide1 {
+    width: 35%;
+    right: 50px;
+}
+
+#bunny-photo-slide1 img {
+    width: 100%;
+    height: 160px;
+    left: 30px;
+    bottom: 30px;
+    top: 40px;
+}
+
+#logos-slide1 {
+    width: 260px;
+    margin-top: 10px;
+}
+
+.first-slide-left-content p:nth-child(2) {
+    font-size: 16px;
+}
+
+.first-slide-left-content p:nth-child(3) {
+    font-size: 16px;
+}
+
+/* BUTTON FIRST SLIDE */
+.btn__dark__rounded_carousel_getStarted {
+    width: 120px;
+    height: 20px;
+    padding: 0 8px;
+    margin-top: 5px;
+    
+}
+
+.btn__dark__rounded_carousel_getStarted a {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.btn__dark__rounded_carousel_getStarted svg {
+   display: none;
+}
+
+.btn__dark__rounded_carousel_learn {
+    width: 120px;
+    height: 20px;
+    padding: 0 8px;
+    margin-top: 5px;
+    
+}
+
+.btn__dark__rounded_carousel_learn a {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.buttonsSlide1carousel {
+    display: flex;
+
+}
+
+/* -----------SECOND SLIDE MEDIA Q */
+
+
+}
