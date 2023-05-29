@@ -615,7 +615,84 @@
    
 }
 
+}
 
+/* ---------------------SMARTPHONE PICCOLI  */
+
+@media screen and (max-width: 380px) {
+
+    /* ------------FIRST SLIDE */
+    .btn__dark__rounded_carousel_getStarted {
+        height: 25px;
+        padding: 0 1rem;
+        margin-top: 0px;
+    }
+
+    .btn__dark__rounded_carousel_getStarted a {
+        font-size: 10px;
+    } 
+
+    .btn__dark__rounded_carousel_learn {
+        height: 25px;
+        padding: 0 1rem;
+        margin-top: 0px;
+    }
+
+    .btn__dark__rounded_carousel_learn a {
+        font-size: 10px;
+    } 
+
+    /* ------------ THIRD SLIDE */
+
+    .btn__dark__rounded_carousel_proceed {
+        padding: 0 9px;
+        border-radius: 10px;
+        height: 25px;
+    }
+    
+    
+    .btn__dark__rounded_carousel_proceed>a {
+        gap: 0.2rem;
+        font-size: 14px;
+    }
+    
+    
+    .btn__dark__rounded_carousel_guide {
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 0 9px;
+        height: 25px;
+        
+    }
+    
+    .btn__dark__rounded_carousel_guide>a {
+        font-size: 14px;
+    }
+
+    /* ------------ FOURTH SLIDE */
+
+
+    .btn__dark__rounded_carousel_getInTouch {
+        margin-top: 20px;
+        width: 170px;
+        padding: 2px 20px;
+        border-radius: 20px;
+        height: 35px;
+    }
+    
+    .btn__dark__rounded_carousel_getInTouch>a {
+        font-weight: 700;
+        
+    }
+
+    /* ------------ FIFTH SLIDE */
+
+
+    .btn__dark__rounded5 {
+        height: 32px;
+       
+    }
+    
 
 
 }
