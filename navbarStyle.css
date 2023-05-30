@@ -605,7 +605,7 @@ hr {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
 
     .trade,
     .earn,
@@ -627,13 +627,37 @@ hr {
 @media (max-width:450px){
     .rightElementsContainer{
     position: relative ;
-    right: 130px;
+    right: 120px;
     }
 }
 
-@media (max-width:370px){
+@media (max-width:380px){
     .rightElementsContainer{
         position: relative;
-        right: 140px;
+        right: 130px;
+    }
+}
+
+@media (max-width:290px){
+    .rightElementsContainer{
+        position: relative;
+        right: 120px;
+    }
+
+    .network{
+        background-color: transparent ;
+    }
+
+    img.networkIcon{
+        position: relative;
+        left:5px;
+    }
+
+    .network > svg{
+        display: none;
+    }
+
+    .network > span {
+        display: none;
     }
 }

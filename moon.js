@@ -5,7 +5,10 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.documentElement.scrollTop > 20) {
+  if (
+    document.body.scrollTop > 700 ||
+    document.documentElement.scrollTop > 700
+  ) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -13,5 +16,5 @@ function scrollFunction() {
 }
 
 function topFunction() {
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.documentElement.scrollTop = 0;
 }
