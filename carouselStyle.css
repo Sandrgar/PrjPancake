@@ -16,19 +16,15 @@
   height: 100%;
 }
 
-.svgWave {
-  width: 100%;
-  position: absolute;
-  bottom: -70px;
-}
 .svgWave svg {
-  display: block;
+ position: relative;
+ top: 5px;
 }
 
 .first-slide {
   border-radius: 35px;
   margin: auto;
-
+  
   background: linear-gradient(
     189.57deg,
     rgb(232, 250, 254) -83.55%,
@@ -238,7 +234,6 @@
     );
   border-radius: 35px;
   margin: auto;
-
   display: flex;
 }
 
@@ -429,7 +424,6 @@
 .third-slide {
   border-radius: 35px;
   margin: auto;
-  margin-top: 15px;
   background: linear-gradient(
       261.24deg,
       rgba(158, 63, 253, 0.12) 27.61%,
@@ -545,7 +539,6 @@
   );
   border-radius: 35px;
   margin: auto;
-  margin-top: 15px;
   display: flex;
 }
 
@@ -627,7 +620,6 @@
   );
   border-radius: 35px;
   margin: auto;
-  margin-top: 15px;
   display: flex;
 }
 

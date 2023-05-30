@@ -5,11 +5,12 @@
   font-family: 'Kanit', sans-serif;
 }
 
+
 .mainBuyCakeContainer {
-  background-color: black;
+  background: linear-gradient(180deg, #09070c 22%, #201335 100%);
   height: 110vh;
   padding: 2% 5%;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 
 }
 
@@ -35,13 +36,13 @@
 }
 
 #cakeWord {
-  color: #7c3fff;
+  color: white;
   font-size: 38px;
   font-weight: 800;
 }
 
 .contentCakeSection p {
-  color: #b9a5dd;
+  color: white;
   margin-top: 15px;
 }
 

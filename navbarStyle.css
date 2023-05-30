@@ -18,7 +18,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 2000;
     width: 100%;
     height: 56px;
     background-color: #27262c;
@@ -417,6 +417,7 @@ hr {
     background-color: #27262c;
     border: none;
     padding: 0px 16px;
+    
 }
 
 .languageDropdownContainer {
@@ -426,6 +427,7 @@ hr {
     border: 1px solid #27262c;
     border-radius: 16px;
     padding-left: 10px;
+
 }
 
 .languageDropdownContent {
@@ -436,12 +438,15 @@ hr {
     background-color: #27262c;
     margin-top: 14px;
     width: 280px;
+    
+    
 }
 
 .languageElements {
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    
 }
 
 .languageElements:hover {

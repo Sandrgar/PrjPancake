@@ -18,7 +18,6 @@
     .first-slide {
         border-radius: 35px;
         margin: auto;
-        margin-top: 15px;
         background: linear-gradient(189.57deg, rgb(232, 250, 254) -83.55%, rgb(182, 228, 255) -40.3%, rgb(204, 194, 254) 123.53%, rgb(198, 163, 255) 176.26%);
         display: flex;
         overflow: hidden;
@@ -193,7 +192,6 @@
     }
     
     #bunny-photo-slide3 {
-        
         position: absolute;
         height: 200px;
         width: 30%;
@@ -412,9 +410,9 @@
 .moon-photo-slide2 img {
     width: 320px;
     right: 0%;
-    left: -15px;
+    left: -5px;
     height: 150px;
-    bottom: 50px;
+    bottom: 65px;
    
 }
 
@@ -605,9 +603,9 @@
     position: relative;
     bottom: 40px;
     height: 240px;
-    left: 58%;
+    left: 45%;
     border-radius: 35px;
-    width: 215px;
+    width: 235px;
 }
 
 .btn__dark__rounded5 {
