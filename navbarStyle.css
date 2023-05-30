@@ -577,7 +577,7 @@ hr {
 }
 
 
-/* Media Queries */
+/* MEDIA QUERIES */
 
 @media (max-width: 1180px) {
 
@@ -592,7 +592,7 @@ hr {
     }
 }
 
-@media (max-width:970px) {
+@media (max-width:870px) {
 
     .logoTitle,
     .walletAmount,
@@ -605,8 +605,7 @@ hr {
     }
 }
 
-
-@media (max-width: 850px) {
+@media (max-width: 800px) {
 
     .trade,
     .earn,
@@ -622,4 +621,19 @@ hr {
         display: block;
     }
 
+   
+}
+
+@media (max-width:450px){
+    .rightElementsContainer{
+    position: relative ;
+    right: 130px;
+    }
+}
+
+@media (max-width:370px){
+    .rightElementsContainer{
+        position: relative;
+        right: 140px;
+    }
 }

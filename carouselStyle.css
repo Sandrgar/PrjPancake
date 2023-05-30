@@ -14,7 +14,6 @@
 /* FIRST SLIDE CAROUSEL */
 .backgorundFirst-section{
     padding-top: 100px;
-
     background: radial-gradient(103.12%50%at 50%50%,#21193a 0%,#191326 100%);
     height: 100%
 }
@@ -235,14 +234,18 @@
 }
 
 .second-slide-left-content {
-
     width: 50%;
     height: 100%;
     padding: 2% 0 0 2%;
 }
 
+.slide2-logoP-h1 {
+    display: flex;
+    flex-direction: column;
+}
+
 .second-slide-left-content h1 {
-    color: rgb(185, 157, 0);
+    color: rgb(255, 217, 0);
     text-shadow:
         -1px 0px 0px rgb(197, 25, 254),
         1px 0px 0px rgb(197, 25, 254),
@@ -446,6 +449,7 @@
 .third-slide {
     border-radius: 35px;
     margin: auto;
+    margin-top: 15px;
     background: linear-gradient(261.24deg, rgba(158, 63, 253, 0.12) 27.61%, rgba(98, 61, 255, 0.25) 76.11%), linear-gradient(247.24deg, rgb(83, 222, 233) -16.43%, rgb(168, 129, 252) 92.15%);
     color: white;
     display: flex;
@@ -553,6 +557,7 @@
     background: linear-gradient(128.04deg, rgb(187, 211, 251) -23.79%, rgb(75, 60, 255) 121.4%);
     border-radius: 35px;
     margin: auto;
+    margin-top: 15px;
     display: flex;
 }
 
@@ -633,6 +638,7 @@
     background: linear-gradient(0deg, rgba(27, 31, 75, 1) 4%, rgba(56, 14, 112, 1) 20%);
     border-radius: 35px;
     margin: auto;
+    margin-top: 15px;
     display: flex;
 }
 
@@ -643,7 +649,7 @@
 }
 
 .fifth-slide-left-content h2 {
-    color: rgb(222, 189, 0);
+    color: rgb(255, 217, 0);
     font-size: 26px;
     font-weight: 800;
 }
@@ -715,6 +721,8 @@
 .container-carousel-buttons {
     width: 100%;
     margin: auto;
+    position: relative;
+    z-index: 2000;
 }
 
 .first-carousel-button {

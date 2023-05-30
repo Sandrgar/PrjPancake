@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="carouselStyle.css">
     <link rel="stylesheet" href="navbarStyle.css">
     <link rel="stylesheet" href="styleCakeCoin4section.css">
+    <link rel="stylesheet" href="carouselMediaQueries.css">
 </head>
 
 <body>
@@ -345,22 +346,24 @@
                 <div class="first-slide-left-content">
                     <img id="logos-slide1" src="assets\liquidStakingTitle.png" alt="">
                     <p>Liquid Staking Integration for WBETH:</p>
-                    <p>ETH to WBETH conversion and earn ETH staking rewards!:</p>
-                    <button class="btn__dark__rounded_carousel_getStarted">
-                        <a href="">Get Started
-                            <svg viewBox="0 0 24 24" color="backgroundAlt" width="20px"
-                                xmlns="http://www.w3.org/2000/svg" class="sc-4ba21b47-0 jxNZzw">
-                                <path
-                                    d="M5 13H16.17L11.29 17.88C10.9 18.27 10.9 18.91 11.29 19.3C11.68 19.69 12.31 19.69 12.7 19.3L19.29 12.71C19.68 12.32 19.68 11.69 19.29 11.3L12.71 4.7C12.32 4.31 11.69 4.31 11.3 4.7C10.91 5.09 10.91 5.72 11.3 6.11L16.17 11H5C4.45 11 4 11.45 4 12C4 12.55 4.45 13 5 13Z">
-                                </path>
-                            </svg>
-                        </a>
-                    </button>
-                    <button class="btn__dark__rounded_carousel_learn">
-                        <a href="">Learn More
+                    <p>ETH to WBETH conversion and earn ETH staking rewards!</p>
+                    <div class="buttonsSlide1carousel">
+                        <button class="btn__dark__rounded_carousel_getStarted">
+                            <a href="">Get Started
+                                <svg viewBox="0 0 24 24" color="backgroundAlt" width="20px"
+                                    xmlns="http://www.w3.org/2000/svg" class="sc-4ba21b47-0 jxNZzw">
+                                    <path
+                                        d="M5 13H16.17L11.29 17.88C10.9 18.27 10.9 18.91 11.29 19.3C11.68 19.69 12.31 19.69 12.7 19.3L19.29 12.71C19.68 12.32 19.68 11.69 19.29 11.3L12.71 4.7C12.32 4.31 11.69 4.31 11.3 4.7C10.91 5.09 10.91 5.72 11.3 6.11L16.17 11H5C4.45 11 4 11.45 4 12C4 12.55 4.45 13 5 13Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </button>
+                        <button class="btn__dark__rounded_carousel_learn">
+                            <a href="">Learn More
 
-                        </a>
-                    </button>
+                            </a>
+                        </button>
+                    </div>
                 </div>
                 <div class="first-slide-right-content">
 
@@ -380,10 +383,12 @@
 
             <div class="second-slide mySlides fade">
                 <div class="second-slide-left-content">
-                    <h1>Ev3ryone's Favourite D3X</h1>
-                    <div>
-                        <img class="second-slideLogo" src="assets/pancakeswap-cake-logo2.png" alt="">
-                        <p>PancakeSwap v3 is live!</p>
+                    <div class="slide2-logoP-h1">
+                        <h1>Ev3ryone's Favourite D3X</h1>
+                        <div>
+                            <img class="second-slideLogo" src="assets/pancakeswap-cake-logo2.png" alt="">
+                            <p>PancakeSwap v3 is live!</p>
+                        </div>
                     </div>
                     <button class="btn__dark__rounded_carousel_discoverV3">
                         <a href="">Discover V3
@@ -700,36 +705,39 @@
         </div>
 
         <div class="statsBuyCakeCoin">
+            <div class="firstRowStats">
+                <div>
+                    <h3>Circulating Supply</h3>
+                    <p class="circSupply"></p>
+                </div>
 
-            <div>
-                <h3>Circulating Supply</h3>
-                <p class="circSupply"></p>
+                <div>
+                    <h3>Total supply</h3>
+                    <p class="totalSupply"></p>
+                </div>
+
+                <div>
+                    <h3>Max Supply</h3>
+                    <p>750.000.000</p>
+                </div>
+
             </div>
 
-            <div>
-                <h3>Total supply</h3>
-                <p class="totalSupply"></p>
-            </div>
+            <div class="secondRowStats">
+                <div>
+                    <h3>Market cap</h3>
+                    <p>$370 million</p>
+                </div>
 
-            <div>
-                <h3>Max Supply</h3>
-                <p>750.000.000</p>
-            </div>
+                <div>
+                    <h3>Burned to date</h3>
+                    <p class="burnedToDate"></p>
+                </div>
 
-
-            <div>
-                <h3>Market cap</h3>
-                <p>$370 million</p>
-            </div>
-
-            <div>
-                <h3>Burned to date</h3>
-                <p class="burnedToDate"></p>
-            </div>
-
-            <div>
-                <h3>Current emissions</h3>
-                <p>5.23/block</p>
+                <div>
+                    <h3>Current emissions</h3>
+                    <p>5.23/block</p>
+                </div>
             </div>
 
         </div>
