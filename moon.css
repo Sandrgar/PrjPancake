@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes fade {
   0% {
     opacity: 1;
@@ -22,13 +26,15 @@
 }
 body #moon-pancake {
   display: flex;
-  margin: 5% 0% 8% 15%;
+  margin: 5% 7% 0% 15%;
+  padding-bottom: 40px;
 }
 body #moon-pancake .moon-text {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-top: 10%;
+  z-index: 2;
 }
 body #moon-pancake .moon-text #moon-title {
   font-size: 64px;
@@ -77,6 +83,7 @@ body #moon-pancake .moon-text .moon-btn #trade-btn:hover {
 body #moon-pancake .bunny-container {
   display: flex;
   width: 100%;
+  z-index: 2;
 }
 body #moon-pancake .bunny-container .bunny-img {
   animation: bounce 3.5s ease-in-out 0s infinite;
@@ -110,26 +117,27 @@ body #moon-pancake .bunny-container .star-container .right-star {
   animation: fade 5s ease-in-out 1s infinite;
 }
 
-.scroll-top {
-  display: inline;
-  position: absolute;
-  right: 5%;
-}
-.scroll-top #btnTop {
-  background-color: #1fc7d4;
-  border: 0px;
+#btnTop {
   width: 48px;
   height: 48px;
-  border-radius: 16px;
+  display: none;
+  position: fixed;
+  bottom: 12%;
+  right: 5%;
+  z-index: 99;
+  border: none;
+  background-color: #1fc7d4;
   cursor: pointer;
+  border-radius: 16px;
 }
-.scroll-top #btnTop #arrow {
+#btnTop #arrow {
   width: 30px;
   height: 30px;
   margin-top: 10px;
   margin-left: 5px;
 }
-.scroll-top #btnTop:hover {
+
+#btnTop:hover {
   background-color: #0098a1;
   transition: 0.2s;
 }
