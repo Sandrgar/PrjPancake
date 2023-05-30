@@ -29,6 +29,17 @@ body #moon-pancake {
   margin: 5% 7% 0% 15%;
   padding-bottom: 40px;
 }
+
+.svgWave{
+ height: 0px;
+}
+.svgWave svg{
+  z-index: 0;
+  position: relative;
+  bottom: 400px;
+  height: 460px;
+  fill: blue
+}
 body #moon-pancake .moon-text {
   display: flex;
   flex-direction: column;
@@ -86,6 +97,7 @@ body #moon-pancake .bunny-container {
   z-index: 2;
 }
 body #moon-pancake .bunny-container .bunny-img {
+  z-index: 1;
   animation: bounce 3.5s ease-in-out 0s infinite;
 }
 body #moon-pancake .bunny-container .bunny-img #astro-bunny {
@@ -141,6 +153,7 @@ body #moon-pancake .bunny-container .star-container .right-star {
   background-color: #0098a1;
   transition: 0.2s;
 }
+
 
 @media (max-width: 852px) {
   #moon-pancake {
