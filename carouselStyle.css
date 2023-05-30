@@ -28,7 +28,7 @@
 .first-slide {
   border-radius: 35px;
   margin: auto;
-  margin-top: 15px;
+
   background: linear-gradient(
     189.57deg,
     rgb(232, 250, 254) -83.55%,
@@ -238,7 +238,7 @@
     );
   border-radius: 35px;
   margin: auto;
-  margin-top: 15px;
+
   display: flex;
 }
 
