@@ -577,7 +577,7 @@ hr {
 }
 
 
-/* Media Queries */
+/* MEDIA QUERIES */
 
 @media (max-width: 1180px) {
 
@@ -622,4 +622,18 @@ hr {
         display: block;
     }
 
+}
+
+@media (max-width:400px){
+    .rightElementsContainer{
+    position: relative ;
+    right: 130px;
+    }
+}
+
+@media (max-width:370px){
+    .rightElementsContainer{
+        position: relative;
+        right: 140px;
+    }
 }
