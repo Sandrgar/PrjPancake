@@ -1,0 +1,113 @@
+.tradeContainer {
+  background-color: #08060b;
+}
+@keyframes bounceCoin {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(-7px, -7px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+.tradeContainer .tradeSec {
+  margin: 0;
+  width: 100%;
+}
+.tradeContainer .tradeSec .tradeBg svg {
+  fill: #201335;
+}
+.tradeContainer .tradeSec .tradeFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5% 10%;
+}
+.tradeContainer .tradeSec .tradeFlex .tradeText {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex: 1 1 0%;
+  padding: 12% 4% 12% 5%;
+}
+.tradeContainer .tradeSec .tradeFlex .tradeText #tradeH2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #f4eeff;
+  margin-top: 0;
+}
+.tradeContainer .tradeSec .tradeFlex .tradeText #tradeH2 #tradeSpan {
+  color: #9a6aff;
+}
+.tradeContainer .tradeSec .tradeFlex .tradeText #tradeH3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b8add2;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.tradeContainer .tradeSec .tradeFlex .tradeText #tradeButton {
+  background-color: #1fc7d4;
+  color: #191326;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 16px;
+  padding: 13px 24px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+.tradeContainer .tradeSec .tradeFlex .tradeText #tradeButton:hover {
+  background-color: #0098a1;
+  transition: background-color 0.3s;
+}
+.tradeContainer .tradeSec .tradeFlex .tradeText #tradeLink {
+  color: #1fc7d4;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+.tradeContainer .tradeSec .tradeFlex .tradeText #tradeLink svg {
+  fill: #1fc7d4;
+  margin-left: 4px;
+}
+.tradeContainer .tradeSec .tradeFlex .tradeText #tradeLink:hover {
+  text-decoration: underline;
+}
+.tradeContainer .tradeSec .tradeFlex .coinContainer {
+  position: relative;
+  display: flex;
+  flex: 1 1 0%;
+  max-height: 512px;
+}
+.tradeContainer .tradeSec .tradeFlex .coinContainer .bunnyCoin {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  animation: bounceCoin 3s ease-in-out 1s infinite;
+}
+.tradeContainer .tradeSec .tradeFlex .coinContainer .btcCoin {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  animation: bounceCoin 3s ease-in-out 0.66s infinite;
+}
+.tradeContainer .tradeSec .tradeFlex .coinContainer .bnbCoin {
+  position: absolute;
+  top: 0;
+  animation: bounceCoin 3s ease-in-out 0.33s infinite;
+}
+.tradeContainer .tradeSec .tradeFlex #tradeLink svg {
+  width: 20px;
+}
+
+@media (max-width: 960px) {
+  .tradeFlex {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=trade.css.map */

@@ -165,21 +165,17 @@ html[data-theme=light] {
 }
 
 .section2__main {
-  background: linear-gradient(180deg,#09070c 22%,#201335 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .section2__main__headerContainer {
- 
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 .section2__main__headerContainer__rabbitIcon {
-  
-  z-index: 1;
   margin-bottom: 24px;
 }
 .section2__main__headerContainer__header {
