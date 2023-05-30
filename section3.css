@@ -1,0 +1,131 @@
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background: linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%);
+}
+
+.leftImgS3 {
+    position: relative;
+    left: 200px;
+    height: 100%;
+    width: 33%;
+}
+
+
+.leftImgS3 img:nth-child(1) {
+    width: 250px;
+    position: relative;
+    top: 20px;
+    z-index: 100;
+    animation: potatoes-bounce 3.5s ease-in-out 0s infinite;
+    /* background-color: blueviolet; */
+}
+
+.leftImgS3 img:nth-child(2) {
+    width: 250px;
+    position: relative;
+    bottom: 230px;
+    animation: potatoes-bounce 3s ease-in-out 0s infinite;
+    /* background-color: blueviolet; */
+}
+
+.leftImgS3 img:nth-child(3) {
+    width: 250px;
+    position: relative;
+    bottom: 500px;
+    animation: potatoes-bounce 2.5s ease-in-out 0s infinite;
+    /* background-color: blueviolet; */
+}
+
+
+
+.contentS3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    height: 100%;
+    width: 43%;
+}
+
+.contentS3 h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.contentS3 p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn__dark__rounded_carousel_section3 {
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    border-style: none;
+    background-color: #1fc7d4;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.btn__dark__rounded_carousel_section3:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.contentS3 a {
+    color: #1fc7d4;
+    fill: #1fc7d4;
+    text-decoration: none;
+}
+
+.rightImgS3 {
+    height: 100%;
+    width: 33%;
+}
+
+
+.rightImgS3 img:nth-child(1) {
+    width: 250px;
+    position: relative;
+    top: 130px;
+    z-index: 100;
+    animation: potatoes-bounce 2s ease-in-out 0s infinite;
+    /* background-color: blueviolet; */
+}
+
+.rightImgS3 img:nth-child(2) {
+    width: 250px;
+    position: relative;
+    bottom: 200px;
+    animation: potatoes-bounce 2.5s ease-in-out 0s infinite;
+    /* background-color: blueviolet; */
+}
+
+.rightImgS3 img:nth-child(3) {
+    width: 250px;
+    position: relative;
+    bottom: 450px;
+    animation: potatoes-bounce 3s ease-in-out 0s infinite;
+    /* background-color: blueviolet; */
+}
+
+@keyframes potatoes-bounce {
+    0% {
+        transform: translate(0px);
+    }
+
+    50% {
+        transform: translate(-7px, -7px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}

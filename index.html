@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="carouselMediaQueries.css">
     <link rel="stylesheet" href="trade.css">
     <link rel="stylesheet" href="styleFooter.css">
+    <link rel="stylesheet" href="section3.css">
 </head>
 
 <body>
@@ -568,13 +569,13 @@
     </div>
 
     <!-- <div class="scroll-top" > -->
-        <button id="btnTop" onclick="topFunction()">
-            <svg id="arrow">
-                <path
-                    d="M13 19V7.83001L17.88 12.71C18.27 13.1 18.91 13.1 19.3 12.71C19.69 12.32 19.69 11.69 19.3 11.3L12.71 4.71001C12.32 4.32001 11.69 4.32001 11.3 4.71001L4.69997 11.29C4.30997 11.68 4.30997 12.31 4.69997 12.7C5.08997 13.09 5.71997 13.09 6.10997 12.7L11 7.83001V19C11 19.55 11.45 20 12 20C12.55 20 13 19.55 13 19Z">
-                </path>
-            </svg>
-        </button>
+    <button id="btnTop" onclick="topFunction()">
+        <svg id="arrow">
+            <path
+                d="M13 19V7.83001L17.88 12.71C18.27 13.1 18.91 13.1 19.3 12.71C19.69 12.32 19.69 11.69 19.3 11.3L12.71 4.71001C12.32 4.32001 11.69 4.32001 11.3 4.71001L4.69997 11.29C4.30997 11.68 4.30997 12.31 4.69997 12.7C5.08997 13.09 5.71997 13.09 6.10997 12.7L11 7.83001V19C11 19.55 11.45 20 12 20C12.55 20 13 19.55 13 19Z">
+            </path>
+        </svg>
+    </button>
     <!-- </div> -->
 
     <!-- SECTION 2 -->
@@ -674,53 +675,48 @@
 
     <div class="tradeContainer">
         <div class="tradeSec">
-          <div class="tradeBg">
-            <svg viewBox="0 0 1660 48" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M1660 48C1139.02 46.1887 336.256 15.2453 0 0H1660V48Z"
-              ></path>
-            </svg>
-          </div>
-          <div class="tradeFlex">
-            <div class="tradeText">
-              <h2 id="tradeH2">
-                <span id="tradeSpan">Trade</span> anything. No registration, no
-                hassle.
-              </h2>
-              <h3 id="tradeH3">
-                Trade any token on BNB Smart Chain in seconds, just by connecting
-                your wallet.
-              </h3>
-              <div class="btnContainer">
-                <button id="tradeButton">Trade Now</button>
-                <a id="tradeLink" href="https://docs.pancakeswap.finance/"
-                  >Learn<svg
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M18 19H6C5.45 19 5 18.55 5 18V6C5 5.45 5.45 5 6 5H11C11.55 5 12 4.55 12 4C12 3.45 11.55 3 11 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V13C21 12.45 20.55 12 20 12C19.45 12 19 12.45 19 13V18C19 18.55 18.55 19 18 19ZM14 4C14 4.55 14.45 5 15 5H17.59L8.46 14.13C8.07 14.52 8.07 15.15 8.46 15.54C8.85 15.93 9.48 15.93 9.87 15.54L19 6.41V9C19 9.55 19.45 10 20 10C20.55 10 21 9.55 21 9V4C21 3.45 20.55 3 20 3H15C14.45 3 14 3.45 14 4Z"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
+            <div class="tradeBg">
+                <svg viewBox="0 0 1660 48" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1660 48C1139.02 46.1887 336.256 15.2453 0 0H1660V48Z"></path>
+                </svg>
             </div>
-            <div class="coinContainer">
-              <div class="tradeAnim">
-                <div class="bunnyCoin">
-                  <img src="assets/tradeNow/bunnyCoin.webp" />
+            <div class="tradeFlex">
+                <div class="tradeText">
+                    <h2 id="tradeH2">
+                        <span id="tradeSpan">Trade</span> anything. No registration, no
+                        hassle.
+                    </h2>
+                    <h3 id="tradeH3">
+                        Trade any token on BNB Smart Chain in seconds, just by connecting
+                        your wallet.
+                    </h3>
+                    <div class="btnContainer">
+                        <button id="tradeButton">Trade Now</button>
+                        <a id="tradeLink" href="https://docs.pancakeswap.finance/">Learn<svg viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18 19H6C5.45 19 5 18.55 5 18V6C5 5.45 5.45 5 6 5H11C11.55 5 12 4.55 12 4C12 3.45 11.55 3 11 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V13C21 12.45 20.55 12 20 12C19.45 12 19 12.45 19 13V18C19 18.55 18.55 19 18 19ZM14 4C14 4.55 14.45 5 15 5H17.59L8.46 14.13C8.07 14.52 8.07 15.15 8.46 15.54C8.85 15.93 9.48 15.93 9.87 15.54L19 6.41V9C19 9.55 19.45 10 20 10C20.55 10 21 9.55 21 9V4C21 3.45 20.55 3 20 3H15C14.45 3 14 3.45 14 4Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="btcCoin">
-                  <img src="assets/tradeNow/BTCcoin.webp" />
+                <div class="coinContainer">
+                    <div class="tradeAnim">
+                        <div class="bunnyCoin">
+                            <img src="assets/tradeNow/bunnyCoin.webp" />
+                        </div>
+                        <div class="btcCoin">
+                            <img src="assets/tradeNow/BTCcoin.webp" />
+                        </div>
+                        <div class="bnbCoin">
+                            <img src="assets/tradeNow/BNBcoin.webp" />
+                        </div>
+                    </div>
                 </div>
-                <div class="bnbCoin">
-                  <img src="assets/tradeNow/BNBcoin.webp" />
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     <!-- Fourth section PART 2 -->
 
     <div class="mainBuyCakeContainer">
@@ -794,8 +790,43 @@
 
         </div>
     </div>
-     <!-- FOOTER -->
-     <div class="footerContainer">
+
+    <div class="section3">
+        <div class="leftImgS3">
+            <img src="assets/1-top1.5x.webp" alt="">
+            <img src="assets/1-left1.5x.webp" alt="">
+            <img src="assets/1-bottom1.5x.webp" alt="">
+        </div>
+        <div class="contentS3">
+            <h1>
+                Start in seconds.
+            </h1>
+            <p>
+                Connect your crypto wallet to start using the app in seconds.
+            </p>
+            <p> <strong>
+                    No registration needed.
+                </strong></p>
+
+            <a href="">Learn how to start <svg viewBox="0 0 24 24" color="invertedContrast" width="20px"
+                    xmlns="http://www.w3.org/2000/svg" class="sc-4ba21b47-0 dBIaUm">
+                    <path
+                        d="M18 19H6C5.45 19 5 18.55 5 18V6C5 5.45 5.45 5 6 5H11C11.55 5 12 4.55 12 4C12 3.45 11.55 3 11 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V13C21 12.45 20.55 12 20 12C19.45 12 19 12.45 19 13V18C19 18.55 18.55 19 18 19ZM14 4C14 4.55 14.45 5 15 5H17.59L8.46 14.13C8.07 14.52 8.07 15.15 8.46 15.54C8.85 15.93 9.48 15.93 9.87 15.54L19 6.41V9C19 9.55 19.45 10 20 10C20.55 10 21 9.55 21 9V4C21 3.45 20.55 3 20 3H15C14.45 3 14 3.45 14 4Z">
+                    </path>
+                </svg></a>
+            <button class="btn__dark__rounded_carousel_section3">
+                Connect Wallet
+            </button>
+        </div>
+        <div class="rightImgS3">
+            <img src="assets/2-bottom.webp" alt="">
+            <img src="assets/2-top1.5x.webp" alt="">
+            <img src="assets/2-right1.5x.webp" alt="">
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footerContainer">
         <div class="footer">
             <div class="about">
                 <h3 id="about">ABOUT</h3>
