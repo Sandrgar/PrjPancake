@@ -1,6 +1,11 @@
 let slideIndex = 1;
 showSlides(slideIndex);     
- 
+
+ setInterval(function() { 
+    slideIndex++;
+    showSlides(slideIndex);
+}, 5000);
+
 
 function currentSlide(n) {
     showSlides(slideIndex = n);
@@ -10,6 +15,10 @@ function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("carousel-buttons");
+
+    if (n > slides.length) {
+        slideIndex = 1;
+    }
 
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
