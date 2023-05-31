@@ -169,4 +169,10 @@ body #moon-pancake .bunny-container .star-container .right-star {
   #moon-pancake .bunny-container .left-star img {
     width: 120px;
   }
+  #wallet-btn {
+    margin-bottom: 10px;
+  }
+  #btnTop {
+    right: 10%;
+  }
 }/*# sourceMappingURL=moon.css.map */

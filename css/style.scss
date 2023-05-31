@@ -156,8 +156,16 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 415px) {
+  .section2__main {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .section2__main__cardsContainer {
+    position: relative;
+    right: 50px;
+  }
   .section2__main__cardsContainer__card1 {
-    width: 300px;
+    width: 250px;
   }
 }
