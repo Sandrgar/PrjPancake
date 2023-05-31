@@ -80,8 +80,6 @@
         position: relative;
         display: flex;
         flex: 1 1 0%;
-        width: 50px;
-        height: 50px;
         .bunnyCoin {
           position: absolute;
           top: 0;
@@ -116,14 +114,22 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
+    padding-left: 10px;
     .tradeText {
       align-self: flex-start;
     }
     .coinContainer {
       width: 192px;
       height: 192px;
-      .bunnyCoin {
-        width: 100px;
+      margin-bottom: 100px;
+      .bunnyCoin img {
+        width: 192px;
+      }
+      .btcCoin img {
+        width: 192px;
+      }
+      .bnbCoin img {
+        width: 192px;
       }
     }
   }
