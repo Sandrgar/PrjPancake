@@ -93,10 +93,10 @@ body {
       }
       .star-container {
         position: absolute;
-        .star-flex {
-          position: relative;
-          max-height: 512px;
-        }
+        // .star-flex {
+        //   // position: relative;
+        //   // max-height: 512px;
+        // }
         .top-right-star {
           position: absolute;
           top: 0px;
@@ -150,28 +150,38 @@ body {
   #moon-pancake {
     display: flex;
     flex-direction: column-reverse;
-
+    .moon-text {
+      width: 100%;
+    }
     .bunny-container {
       #astro-bunny {
         width: 40%;
-        // position: relative;
-        // left: 400px;
       }
 
       .top-right-star img {
-        width: 250px;
-        // position: relative;
-        // left: 400px;
+        width: 200px;
       }
       .right-star img {
-        width: 250px;
-        // position: relative;
-        // left: 400px;
+        width: 200px;
       }
       .left-star img {
-        width: 250px;
-        // position: relative;
-        // left: 400px;
+        width: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  #moon-pancake {
+    .bunny-container {
+      .top-right-star img {
+        width: 120px;
+      }
+      .right-star img {
+        width: 120px;
+      }
+      .left-star img {
+        width: 120px;
       }
     }
   }

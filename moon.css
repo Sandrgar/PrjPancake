@@ -94,10 +94,6 @@ body #moon-pancake .bunny-container .bunny-img #astro-bunny {
 body #moon-pancake .bunny-container .star-container {
   position: absolute;
 }
-body #moon-pancake .bunny-container .star-container .star-flex {
-  position: relative;
-  max-height: 512px;
-}
 body #moon-pancake .bunny-container .star-container .top-right-star {
   position: absolute;
   top: 0px;
@@ -147,16 +143,30 @@ body #moon-pancake .bunny-container .star-container .right-star {
     display: flex;
     flex-direction: column-reverse;
   }
+  #moon-pancake .moon-text {
+    width: 100%;
+  }
   #moon-pancake .bunny-container #astro-bunny {
     width: 40%;
   }
   #moon-pancake .bunny-container .top-right-star img {
-    width: 250px;
+    width: 200px;
   }
   #moon-pancake .bunny-container .right-star img {
-    width: 250px;
+    width: 200px;
   }
   #moon-pancake .bunny-container .left-star img {
-    width: 250px;
+    width: 200px;
+  }
+}
+@media (max-width: 415px) {
+  #moon-pancake .bunny-container .top-right-star img {
+    width: 120px;
+  }
+  #moon-pancake .bunny-container .right-star img {
+    width: 120px;
+  }
+  #moon-pancake .bunny-container .left-star img {
+    width: 120px;
   }
 }/*# sourceMappingURL=moon.css.map */

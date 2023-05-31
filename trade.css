@@ -113,7 +113,6 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
-    padding-left: 10px;
   }
   .tradeFlex .tradeText {
     align-self: flex-start;
