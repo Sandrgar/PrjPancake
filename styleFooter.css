@@ -1,17 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-}
+
 .footerContainer{
     background-color: rgb(39 38 44);
     color: rgb(244 238 255);
+    height: 65vh;
 }
 .footer {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    
     align-items: flex-start;
+}
+
+.footerAbouts {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #about,
@@ -19,6 +22,10 @@
 #developers {
     color: rgb(154 106 255);
     
+}
+
+.footerRabbitLogo2 {
+    display: none;
 }
 
 .aboutSection,
@@ -60,10 +67,137 @@
     width: 150px;
     margin: 30px;
 }
+
 .twitterLogo, .telegramLogo, .redditLogo, .instaLogo, .githubLogo, .discordLogo, .youtubeLogo{
    fill: rgb(184 173 210);
-   margin: 100px 10px;
+   margin: 0px 10px;
    position: relative;
-   left: 260px
+   
 }
+
+.footerLogos {
+    margin-left: 173px;
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.footerContainer hr {
+    width: 83%;
+    margin: 35px auto 0 auto;
+}
+
+
+
+.logoWalletFooter {
+    display: flex;
+    align-items: center;
+    background-color: #27262c;
+    border: 1px solid #27262c;
+    border-radius: 16px;
+    position: absolute;
+    right: 400px;
+    margin-top: 30px;
+    
+}
+
+.btn__dark__rounded_carousel_getStarted-footer {
+    border-radius: 15px;
+    padding: 9px;
+    border-style: none;
+    background-color: #1fc7d4;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 35px;
+    width: 120px;
+    margin-left: 20px;
+  }
+  
+  .btn__dark__rounded_carousel_getStarted-footer:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+  
+  .btn__dark__rounded_carousel_getStarted-footer > a {
+    text-decoration: none;
+    color: #191326;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  
+  .btn__dark__rounded_carousel_getStarted-footer > a > svg {
+    fill: #191326;
+  }
+
+
+
+
+  /* ---------------------------- FOOTER MEDIA QUERIES TABLET ---------------------  */
+  
+  @media screen and (max-width: 850px) {
+    .footerLogos {
+        margin-left: 25px;
+        margin-top: 40px;
+        
+    }
+
+    .logoWalletFooter {
+        right: 60px;
+    }
+
+  }
+
+   /* ---------------------------- FOOTER MEDIA QUERIES SMARTPHONE ---------------------  */
+
+   @media screen and (max-width: 450px) {
+
+    .footerContainer{
+        height: 100vh;
+    }
+
+    .footerRabbitLogo2 {
+        display: block;
+        margin-bottom: -20px;
+        margin-left: -10px;
+    }
+
+    .footerRabbitLogo {
+        display: none;
+    }
+
+    .footerContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footerLogos {
+        margin-bottom: 50px;
+    }
+
+    .logoWalletFooter {
+        position: static;
+        margin-left: 15px;
+        
+    }
+    
+    .footerAbouts {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .aboutSection li,
+.helpSection li,
+.developersSection li {
+    font-size: 12px;   
+    font-weight: 800;
+}
+
+.btn__dark__rounded_carousel_getStarted-footer {
+    margin-left: 90px;
+}
+
+   }
 
