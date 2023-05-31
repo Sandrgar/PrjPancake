@@ -8,6 +8,7 @@
 
 .leftImgS3 {
     position: relative;
+    top: 250px;
     left: 200px;
     height: 100%;
     width: 33%;
@@ -15,15 +16,17 @@
 
 
 .leftImgS3 img:nth-child(1) {
+    left: 180px;
     width: 250px;
     position: relative;
-    top: 20px;
+    top: -240px;
     z-index: 100;
     animation: potatoes-bounce 3.5s ease-in-out 0s infinite;
     /* background-color: blueviolet; */
 }
 
 .leftImgS3 img:nth-child(2) {
+    right: 80px;
     width: 250px;
     position: relative;
     bottom: 230px;
@@ -32,9 +35,10 @@
 }
 
 .leftImgS3 img:nth-child(3) {
+    left: 180px;
     width: 250px;
     position: relative;
-    bottom: 500px;
+    bottom: 480px;
     animation: potatoes-bounce 2.5s ease-in-out 0s infinite;
     /* background-color: blueviolet; */
 }
@@ -86,6 +90,8 @@
 }
 
 .rightImgS3 {
+    position: relative;
+    top: 400px;
     height: 100%;
     width: 33%;
 }
@@ -94,7 +100,7 @@
 .rightImgS3 img:nth-child(1) {
     width: 250px;
     position: relative;
-    top: 130px;
+    bottom: 100px;
     z-index: 100;
     animation: potatoes-bounce 2s ease-in-out 0s infinite;
     /* background-color: blueviolet; */
@@ -103,7 +109,8 @@
 .rightImgS3 img:nth-child(2) {
     width: 250px;
     position: relative;
-    bottom: 200px;
+    right: 270px;
+    bottom: 100px;
     animation: potatoes-bounce 2.5s ease-in-out 0s infinite;
     /* background-color: blueviolet; */
 }
@@ -111,7 +118,7 @@
 .rightImgS3 img:nth-child(3) {
     width: 250px;
     position: relative;
-    bottom: 450px;
+    bottom: 380px;
     animation: potatoes-bounce 3s ease-in-out 0s infinite;
     /* background-color: blueviolet; */
 }
@@ -128,4 +135,68 @@
     100% {
         transform: translate(0px);
     }
+}
+
+/* IPHONE 12PRO */
+@media screen and (max-width: 450px) {
+    .leftImgS3 img:nth-child(1) {
+        left: -200px;
+        width: 100px;
+        position: relative;
+        top: -200px;
+        z-index: 100;
+        animation: potatoes-bounce 3.5s ease-in-out 0s infinite;
+    }
+
+    .leftImgS3 img:nth-child(2) {
+        left: -200px;
+        width: 100px;
+        position: relative;
+        bottom: 300px;
+        animation: potatoes-bounce 3s ease-in-out 0s infinite;
+    }
+
+    .leftImgS3 img:nth-child(3) {
+        left: -200px;
+        width: 100px;
+        position: relative;
+        bottom: 400px;
+        animation: potatoes-bounce 2.5s ease-in-out 0s infinite;
+    }
+
+}
+
+
+
+/* TABLET MINI */
+@media screen and (max-width: 768px) {
+    .leftImgS3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rightImgS3 {
+        display: none;
+    }
+
+    .contentS3{
+        width:55%;
+        margin: auto;
+        
+    }
+    .contentS3 h1 {
+       font-size: 34px;
+       font-weight: 800;
+    }
+    .contentS3 p {
+        font-size: 23px;
+        font-weight: 600;
+       
+     }
+     .contentS3 a {
+        font-size: 20px;
+        font-weight: 800;
+       
+     }
 }

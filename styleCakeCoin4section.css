@@ -704,3 +704,10 @@
 
 
 }
+
+
+@media screen and (width: 820px){
+  .top-right-chip4section{
+   display: none;
+  }
+}
