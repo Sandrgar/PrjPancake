@@ -18,7 +18,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 3000;
     width: 100%;
     height: 56px;
     background-color: #27262c;
@@ -621,43 +621,43 @@ hr {
         display: block;
     }
 
-   
+
 }
 
-@media (max-width:450px){
-    .rightElementsContainer{
-    position: relative ;
-    right: 120px;
+@media (max-width:450px) {
+    .rightElementsContainer {
+        position: relative;
+        right: 120px;
     }
 }
 
-@media (max-width:395px){
-    .rightElementsContainer{
+@media (max-width:395px) {
+    .rightElementsContainer {
         position: relative;
         right: 132px;
     }
 }
 
-@media (max-width:290px){
-    .rightElementsContainer{
+@media (max-width:290px) {
+    .rightElementsContainer {
         position: relative;
         right: 120px;
     }
 
-    .network{
-        background-color: transparent ;
+    .network {
+        background-color: transparent;
     }
 
-    img.networkIcon{
+    img.networkIcon {
         position: relative;
-        left:5px;
+        left: 5px;
     }
 
-    .network > svg{
+    .network>svg {
         display: none;
     }
 
-    .network > span {
+    .network>span {
         display: none;
     }
 }
